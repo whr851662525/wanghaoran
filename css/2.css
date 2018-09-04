@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+}
+.news {
+    float: left;
+   padding-top: 30%;
+width: 30%;
+background: gold ;
+margin: 1%;
+}
