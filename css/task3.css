@@ -7,21 +7,13 @@ body {
     margin: 30px;
     text-align: center;
 }
-.one{ margin: 100px;
-    margin-left: 30px;
-    margin-top: 10px;
-    width: 40px;
-    height: 40px;
-}
 .two{
-    width: 60px;
-    height: 60px;
-    margin-top: 50px;
-    margin-left: 20%;
+    float: left;
+    margin: 10%;
+    color: aliceblue;
 }
-.whr{ margin-top: 50px;
-    width: 60px;
-    height: 60px;
+.whr{
     float: right;
-    margin-right: 20%
+    margin: 10%;
+    color: aliceblue;
 }
