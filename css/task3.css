@@ -4,16 +4,16 @@ body {
 .p0 {
     font-size: 18px;
     color: aliceblue;
-    margin: 30px;
+    margin: 10px;
     text-align: center;
 }
 .two{
     float: left;
-    margin: 10%;
+    margin: 5px;
     color: aliceblue;
 }
 .whr{
-    float: right;
-    margin: 10%;
+    float: left;
+    margin: 5px;
     color: aliceblue;
 }

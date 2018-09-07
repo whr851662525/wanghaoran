@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+header{
+    background: lightseagreen;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.za{
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 55px;
+}
