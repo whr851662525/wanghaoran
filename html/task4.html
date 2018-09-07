@@ -11,13 +11,13 @@
     <span class="pb">登录</span>
     <span class="pc">注册</span>
 </header>
-<div>
-<img src="../img/task4.2.png" height="41" width="27"/>
-<input type="text" name="task4.2" value="请输入手机号">
+<div class="pf">
+<img src="../img/task4.2.png"/>
+    <input onKeyUp="value=value.replace(/[^\d]/g,'') "onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" maxlength="11" type="text" name="task4.2" placeholder="请输入手机号">
 </div>
-<div>
-    <img src="../img/task4.1.png" height="43" width="29"/>
-    <input type="text" name="task4.2" value="请输入密码">
+<div class="pg">
+    <img src="../img/task4.1.png"/>
+    <input type="text" style="-webkit-text-security:disc" name="task4.2" placeholder= "请输入密码">
 </div>
 <div class="pe">登录</div>
 <div class="pd"><font color="mediumturquoise">忘记密码？</font></div>
