@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+header{
+    background: mediumturquoise;
+    height: 60px;
+    text-align: center;
+}
+.pa{
+    color: aliceblue;
+    float: left;
+    font-size: 25px;
+    line-height: 55px;
+}
+.pb{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 55px;
+}
+.pc{
+    color: aliceblue;
+    float: right;
+    font-size: 25px;
+    line-height: 55px;
+}
+input{
+    height: 40px;
+    width: 90%;
+    border: none;
+    margin: 10px;
+}
+.pe{
+    background: mediumturquoise;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 55px;
+}
+img{
+    float: left;
+}
+.pd{
+    float: right;
+}
