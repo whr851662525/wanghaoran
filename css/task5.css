@@ -2,17 +2,150 @@ body{
     margin: 0;
 }
 header{
-    background: lightseagreen;
+    background: mediumturquoise;
+    height: 60px;
     text-align: center;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
-.za{
+.nav{
+    margin: 15px;
+}
+.subnav{
     color: aliceblue;
     font-size: 30px;
-    line-height: 55px;
 }
-.zb{
-    background-image: url();
+.vote{
+    background-image: url(../img/task5.15.png);
+    height: 320px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.ink{
+    flex-direction: column;
+    margin-left: 20px;
+}
+.woman{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+.name{
+    color: aliceblue;
+    font-size: 30px;
+}
+.icon{
+    flex-wrap: wrap;
+}
+.age{
+    color: aliceblue;
+    font-size: 30px;
+}
+.site{
+    color: aliceblue;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+}
+.skill{
+    width: 100%;
+    border: 1px solid gray;
+}
+.vertical{
+    float: left;
+    margin: 10px;
+}
+.major{
+    font-size: 22px;
+    margin: 10px;
+}
+.put{
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+}
+.home{
+    margin: 25px;
+    padding-right: 20px;
+    font-size: 20px;
+    border-right: 2px solid #9999;
+}
+.sudden{
+    float: left;
+}
+.meal{
+    margin: 25px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+.time{
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+}
+.industry{
+    margin: 25px;
+    padding-right: 20px;
+    border-right-style: solid;
+    font-size: 20px;
+    color: #9999;
+}
+.figure{
+    margin: 25px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+.charge{
+    margin: 25px;
+    margin-left: 0px;
+    font-size: 20px;
+    color: #e26163;
+}
+.need{
+    margin: 25px;
+    padding-right: 20px;
+    border-right-style: solid;
+    font-size: 20px;
+    color: #9999;
+    min-width:80px;
+}
+.look{
+    margin: 25px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+.language{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.this{
+    width: 202px;
+    padding: 15px;
+    border: 2px solid #5fc0cd;
+    border-radius: 15px;
+    text-align: center;
+    color: #5fc0cd;
+    font-size: 20px;
+}
+.phone{
+    width: 206px;
+    padding: 15px;
+    background: #5fc0cd;
+    border-radius: 15px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+.from{
+    width: 80px;
+    border: 25px solid #ffffff;
+    padding: 0px;
+    margin: 0px;
 }
