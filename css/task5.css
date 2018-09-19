@@ -125,6 +125,9 @@ header{
     padding: 4%;
     display: flex;
     justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    border:none;
 }
 .this{
     width: 202px;
@@ -134,6 +137,7 @@ header{
     text-align: center;
     color: #5fc0cd;
     font-size: 20px;
+    background-color: #ffffff;
 }
 .phone{
     width: 206px;
@@ -147,4 +151,9 @@ header{
 .from{
     width: 80px;
     border: 25px solid #ffffff;
+}
+.design{
+    width: 92%;
+    border: 1px solid gray;
+    padding: 8%;
 }
