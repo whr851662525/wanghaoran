@@ -86,6 +86,7 @@ header{
     width: 100%;
     border: 1px solid gray;
     display: flex;
+    align-items: center;
 }
 .industry{
     margin: 25px;
@@ -119,9 +120,9 @@ header{
     font-size: 20px;
 }
 .language{
-    width: 100%;
+    width: 92%;
     border: 1px solid gray;
-    padding: 40px;
+    padding: 4%;
     display: flex;
     justify-content: center;
 }
@@ -146,6 +147,4 @@ header{
 .from{
     width: 80px;
     border: 25px solid #ffffff;
-    padding: 0px;
-    margin: 0px;
 }
