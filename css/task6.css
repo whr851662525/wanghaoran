@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+header{
+    background: mediumturquoise;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.employer{
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    background: #55a8b3;
+    font-size: 1.7em;
+    width: 100px;
+    height: 50px;
+    line-height: 45px;
+}
+.worker{
+    border-radius: 8px;
+    text-align: center;
+    color: #55a8b3;
+    background: #fff;
+    font-size: 1.7em;
+    width: 100px;
+    height: 50px;
+    line-height: 45px;
+}
