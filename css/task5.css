@@ -51,6 +51,8 @@ header{
 }
 .skill{
     border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
 }
 .vertical{
     float: left;
