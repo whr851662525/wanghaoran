@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background:#f0f0f0;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background: #29bde0;
+    background-image: url(../img/task7.3.png);
+    background-repeat: no-repeat;
+    background-position: 20px 10px;
+}
+.next{
+    width: 80%;
+    height: 80px;
+    text-align: center;
+    line-height: 78px;
+    font-size: 1rem;
+    color: #9c9c9c;
+    background: #fff;
+    margin-left: 10%;
+    margin-top: 30px;
+    background-image: url(../img/task7.2.png);
+    background-repeat: no-repeat;
+    background-position: 99% 20px;
+}
+.large{
+    width: 80%;
+    height: 70px;
+    background: #fff;
+    margin-left: 10%;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 70px;
+    color: #fbb435;
+    border-bottom: 1.5px solid #fbb435;
+}
+.edition{
+    width: 80%;
+    height: 370px;
+    background: #fff;
+    margin-left: 10%;
+    padding-top: 20px;
+}
+.simple{
+    width: 60%;
+    height: 60px;
+    background: #69d1e9;
+    text-align: center;
+    line-height: 56px;
+    margin-left: 18%;
+    color: #fff;
+}
+.figure{
+    color: #9c9c9c;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.money{
+    display: flex;
+    justify-content: center;
+}
+.million{
+    width: 15px;
+    height: 15px;
+    background: #69d1e9;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.consult{
+    width: 15px;
+    height: 15px;
+    background: #f0f0f0;
+    border-radius: 50%;
+    margin-right: 5px;
+}

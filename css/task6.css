@@ -3,13 +3,16 @@ body{
 }
 header{
     width: 100%;
+    position: fixed;
+    top: 0;
+}
+.consult{
+    width: 100%;
     height: 60px;
     background: mediumturquoise;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    top: 0;
 }
 .look{
     margin-left: 18px;
@@ -49,7 +52,7 @@ header{
     border-bottom: 1px solid #999;
 }
 .scenery{
-    height: 60px;
+    height: 110px;
 }
 .box{
     width: 33.33%;
@@ -144,25 +147,33 @@ header{
     color: #999;
 }
 .figure{
-    height: 35px;
+    height: 50px;
     display: flex;
-    justify-content: space-around;
-    background-image: url(../img/task6.8.png);
-    background-repeat: no-repeat;
-    background-position: 98%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
 }
 .year{
-    font-size: 1.1rem;
+    width: 36%;
+    font-size: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .money{
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: crimson;
+}
+.import{
+    vertical-align: middle;
+    margin-left: 10px;
 }
 .location{
     height: 35px;
     padding-bottom: 8px;
     border-bottom: 1px solid #999;
     display: flex;
+    align-items: center;
 }
 .sign{
     margin-left: 45px;
