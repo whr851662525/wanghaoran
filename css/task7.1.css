@@ -41,6 +41,9 @@ header{
     background: #fff;
     margin-left: 10%;
     padding-top: 20px;
+    background-image: url(../img/task7.1.png);
+    background-repeat: no-repeat;
+    background-position: 95% 39%;
 }
 .simple{
     width: 60%;
