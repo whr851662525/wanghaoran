@@ -59,7 +59,7 @@ header{
     justify-content: space-around;
 }
 .figure:hover +.cold{
-opacity: 1;
+    opacity: 1;
 }
 .figure {
     width: 18vw;

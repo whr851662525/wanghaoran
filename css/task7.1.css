@@ -45,6 +45,9 @@ header{
     background-repeat: no-repeat;
     background-position: 95% 39%;
 }
+a{
+    text-decoration:none;
+}
 .simple{
     width: 60%;
     height: 60px;
