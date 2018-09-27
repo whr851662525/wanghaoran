@@ -43,20 +43,23 @@ header{
     margin-left: 15vw;
     color: #fff;
 }
+.box{
+    height: 20px;
+}
 .sky{
     height: 6vw;
     display: flex;
     justify-content: space-around;
 }
 .fate{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .minute{
     color: #c7c7c7;
 }
 .daytime{
     margin-left: 20vw;
-    height: 3vw;
+    height: 5vw;
     color: #a6a6a6;
 }
 .night{

@@ -110,6 +110,9 @@ header{
     position: fixed;
     bottom: 0;
 }
+a{
+    text-decoration: none;
+}
 .agree{
     width: 40vw;
     height: 10vw;
