@@ -74,7 +74,7 @@ header{
 .number{
     background: #83b09a;
     text-align: center;
-    line-height: 5vw;
+    line-height: 4.5vw;
 }
 .cold{
     width: 19vw;
@@ -115,8 +115,8 @@ header{
     height: 10vw;
     background: #fbb435;
     text-align: center;
-    line-height: 7vw;
+    line-height: 8vw;
     color: #fff;
-    margin-left: 30vw;
+    margin-left: 29vw;
     font-size: 1.5rem;
 }
