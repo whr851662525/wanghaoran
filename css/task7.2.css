@@ -37,9 +37,9 @@ header{
 audio{
     opacity: 0;
     float: right;
-    margin-top: -9vw;
     transform: rotate(180deg);
-    margin-right: 3vw;
+    margin-right: 4vw;
+    margin-top: 7px;
 }
 .greens{
     width: 100%;
