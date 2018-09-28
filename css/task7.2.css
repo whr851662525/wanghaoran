@@ -34,6 +34,13 @@ header{
     line-height: 66px;
     margin-left: 50px;
 }
+audio{
+    opacity: 0;
+    float: right;
+    margin-top: -9vw;
+    transform: rotate(180deg);
+    margin-right: 3vw;
+}
 .greens{
     width: 100%;
     background: #29bde0;
