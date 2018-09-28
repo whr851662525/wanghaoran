@@ -83,6 +83,9 @@ header{
     position: fixed;
     bottom: 0;
 }
+a{
+    text-decoration: none;
+}
 .recur{
     width: 220px;
     height: 60px;
