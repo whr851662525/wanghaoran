@@ -3,7 +3,7 @@ body{
 }
 header{
     width: 100%;
-    height: 70px;
+    height: 45px;
     background: #29bde0;
     display: flex;
     justify-content: space-between;
@@ -24,24 +24,24 @@ header{
 }
 .main{
     width: 100%;
-    margin-top: 8vw;
+    margin-top: 47px;
     background: #29bde0;
     text-align: center;
 }
 .lie{
-    margin:0 19% 6vw 19%;
+    margin:0 10% 6vw 10%;
     font-size: 1.5rem;
     color: #ffc865;
     text-align: justify;
 }
 .time{
     text-align: left;
-    margin-left: 19%;
+    margin-left: 10%;
     color: #fff;
 }
 .identity{
     text-align: left;
-    margin-left: 19%;
+    margin-left: 10%;
     color: #fff;
 }
 .box{
@@ -49,7 +49,7 @@ header{
 }
 .sky{
     height: 30px;
-    margin-left: 19%;
+    margin-left: 10%;
 }
 .fate{
     font-size: 1.2rem;
@@ -59,11 +59,13 @@ header{
     margin-left: 25%;
 }
 .daytime{
-    margin-left: 19%;
+    margin-left: 10%;
+    margin-right: 10%;
     color: #a6a6a6;
 }
 .night{
-    margin-left: 19%;
+    margin-left: 10%;
+    margin-right: 10%;
     color: #a6a6a6;
 }
 .empty{
@@ -87,19 +89,19 @@ a{
     text-decoration: none;
 }
 .recur{
-    width: 220px;
+    width: 40%;
     height: 60px;
     background: #f66f6f;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     border-radius: 10px;
     line-height: 56px;
 }
 .share{
-    width: 220px;
+    width: 40%;
     height: 60px;
     background: #fbb435;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     border-radius: 10px;
     line-height: 56px;

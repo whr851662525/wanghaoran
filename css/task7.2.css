@@ -112,6 +112,9 @@ audio{
     width: 30px;
     background-position: 0 0;
 }
+.look{
+    height: 30px;
+}
 .vote{
     width: 100%;
     height: 12%;
