@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    background-color: #fafafa;
+}
+header{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (min-width: 768px){
+    .navbar {
+        border-radius: 0px;
+    }
+}
+.service {
+    color: #29b078;
+}
+.signal{
+    margin-right: 3px;
+}
+.navbar-brand {
+    float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    height: 65px;
+}
+.navbar-default {
+    height: auto;
+    background-color: #29b078;
+}
+.navbar-nav {
+    text-align:center;
+    margin-top: 10px;
+}
+@media screen and (min-width: 767px) {
+    .navbar-nav {
+        float: right;
+    }
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 18px;
+    margin-right: 50px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.box{
+    margin-left: 10vw;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fafafa;
+    background-color: #29b078;
+}
+.navbar-default .navbar-nav>.active>a{
+    color: #fafafa;
+    background-color: #29b078;
+}
+.navbar-nav:hover  .active {
+    background-color: #29b078;
+    border-bottom:2px solid #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #29b078;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: #29b078;
+    border-bottom:2px solid #fff;
+    color: #fff;
+}
+.rocket{
+    text-align: center;
+    margin-top: 6vw;
+}
+.result{
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.7rem;
+    margin-top: 2vw;
+}
+.time{
+    text-align: center;
+    color: #999;
+    margin-top: 20px;
+}
+.norm{
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.7rem;
+    margin-top: 3vw;
+}
+.walk{
+    text-align: center;
+    color: #999;
+    margin-top: 20px;
+}
+.seek{
+    margin-top: 10vw;
+    text-align: center;
+}
+.add{
+    padding-bottom: 2vw;
+}
+.quorum{
+    color: #29b078;
+}
+.study{
+    color: #999;
+}
+.now{
+    margin-left: 25px;
+    border-left: dashed thin #dedede;
+}
+.learn{
+    padding-top: 6vw;
+    margin-bottom: 6vw;
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+}
+.figure{
+    min-height: 5rem;
+    min-width: 5rem;
+    border: 2px solid #f4f3f3;
+    border-radius: 50%;
+    text-align: center;
+    color: #29b078;
+    font-size: 2rem;
+    background-color: #fff;
+}
+.human{
+    color: #afafaf;
+}
+.cow{
+    color: #afafaf;
+}
+.know{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vw;
+}
+.enough{
+    line-height: 4rem;
+}
+.excellent{
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.person{
+    width: 25vw;
+    text-align: center;
+}
