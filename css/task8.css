@@ -162,7 +162,66 @@ header{
     font-size: 2rem;
     font-weight: 900;
 }
-.person{
-    width: 25vw;
+.show{
+    display: flex;
+    justify-content: space-around;
+}
+.horse{
     text-align: center;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #afafaf;
+}
+.ask{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.name{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.robot{
+    color: #afafaf;
+    margin-left: 3rem;
+    margin-right: 3rem
+}
+.support{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.support:hover{
+    background-color: #29b078;
+}
+.expert{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.support{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.firm{
+    margin-bottom: 6vw;
+    margin-top: 6vw;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.ads{
+
 }
