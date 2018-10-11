@@ -222,6 +222,60 @@ header{
     font-size: 2rem;
     font-weight: bold;
 }
-.ads{
-
+.ship{
+    background: #fff;
+    text-align: center;
+    height: 192px;
+    margin-top: 3vw;
+    line-height: 185px;
+}
+.ship:hover{
+    box-shadow:black 0px 0px 10px;
+}
+@media (min-width: 1200px) {
+    .col-lg-2 {
+        width: 20%;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-1 {
+        width: 9.7%;
+    }
+}
+.temper{
+    width: 6px;
+    height: 6px;
+    background-color: #afafaf;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.software{
+    color: #afafaf;
+}
+.teacher{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+}
+.software:hover{
+    border-bottom:1px solid #29b078;
+}
+.script{
+    background-color: #29b078;
+    padding-top: 25px;
+    color: #fff;
+    padding-bottom: 35px;
+    margin-top: 15px;
+}
+.our{
+    color: #fff;
+}
+.setout{
+    background-color: #29b078;
+    border-top: 0.1rem solid #32c068;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 }
