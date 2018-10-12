@@ -5,7 +5,7 @@ body{
 header{
     height: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 @media (min-width: 768px){
@@ -15,9 +15,66 @@ header{
 }
 .service {
     color: #29b078;
+    margin-left: 46px;
+}
+.contact{
+    margin-right: 45px;
+}
+.monkey{
+    display: none;
+}
+@media (max-width: 750px){
+    .monkey{
+        display: block;
+        white-space: nowrap;
+    }
+}
+.cat{
+    display: none;
+}
+@media (max-width: 750px){
+    .cat{
+        display: block;
+        white-space: nowrap;
+    }
 }
 .signal{
     margin-right: 3px;
+}
+@media (max-width: 750px){
+    .service{
+        display: none;
+    }
+}
+@media (max-width: 750px){
+    .contact{
+        display: none;
+    }
+}
+.login{
+    display: none;
+}
+@media (max-width: 750px){
+    .login {
+        display: block;
+        white-space: nowrap;
+        margin-right: 45px;
+        font-size: 1.7rem;
+    }
+}
+.wait{
+    color: #29b078;
+}
+.wait:hover{
+    color: #29b078;
+    text-decoration: none;
+}
+.pour{
+    color: #29b078;
+}
+.pour:hover{
+    color: #29b078;
+    text-decoration: none;
 }
 .navbar-brand {
     float: left;
@@ -51,7 +108,7 @@ header{
     border-radius: 4px;
 }
 .box{
-    margin-left: 10vw;
+    margin-left: 30px;
 }
 .navbar {
     position: relative;
@@ -278,4 +335,13 @@ header{
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+}
+.our:hover{
+    color: #fff;
+}
+.grass{
+    color: #fff;
+}
+.grass:hover{
+    color: #fff;
 }
