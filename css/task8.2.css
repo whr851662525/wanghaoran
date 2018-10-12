@@ -8,6 +8,10 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.row {
+    margin-right: 8px;
+    margin-left: 8px;
+}
 @media (min-width: 768px){
     .navbar {
         border-radius: 0px;
@@ -163,4 +167,37 @@ header{
 }
 .grass:hover{
     color: #fff;
+}
+.mouse{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: thin solid #d0d6d9;
+    font-size: 1.7rem;
+}
+.career{
+    color: #29b078;
+}
+.career:hover{
+    color: #29b078;
+}
+.south{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: thin solid #d0d6d9;
+    font-size: 1.7rem;
+}
+.move{
+    color: #999;
+    margin-right: 10px;
+}
+.exploit{
+    margin-right: 20px;
+}
+.maintain{
+    color: black;
+}
+.maintain:hover{
+    color: #fff;
+    background-color: #29b078;
+    text-decoration: none;
 }
