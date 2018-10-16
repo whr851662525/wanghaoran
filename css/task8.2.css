@@ -8,10 +8,6 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.row {
-    margin-right: 8px;
-    margin-left: 8px;
-}
 @media (min-width: 768px){
     .navbar {
         border-radius: 0px;
@@ -151,6 +147,10 @@ header{
 .our{
     color: #fff;
 }
+.read{
+    float: right;
+    text-align: center;
+}
 .setout{
     background-color: #29b078;
     border-top: 0.1rem solid #32c068;
@@ -200,4 +200,200 @@ header{
     color: #fff;
     background-color: #29b078;
     text-decoration: none;
+}
+.direction{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: thin solid #d0d6d9;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.wrapper{
+    display: grid;
+    position: relative;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 180px 30px 30px 30px 30px 30px 30px 30px;
+    color: #c6c6c6;
+    max-width: 450px;
+    border:1px solid #c6c6c6;
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+.sudden{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box-one{
+    background-image: url(../img/tsk8.2.2.png);
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.box-two{
+    grid-column-start: 11;
+    grid-column-end: 6;
+}
+.engineer{
+    margin-top: 18px;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+.utilize{
+    color: #c6c6c6;
+}
+.utilize:hover{
+    color: #c6c6c6;
+    text-decoration: none;
+}
+.box-three{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    padding-left: 10px;
+    border-top: 1px solid #d0d6d9;
+    border-right: 1px solid #d0d6d9;
+    border-bottom: 1px solid #d0d6d9;
+    display: flex;
+    align-items: center;
+}
+.box-four{
+    grid-column-start: 11;
+    grid-column-end: 6;
+    padding-left: 10px;
+    border-top: 1px solid #d0d6d9;
+    border-bottom: 1px solid #d0d6d9;
+    display: flex;
+    align-items: center;
+}
+.box-five{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    padding-left: 10px;
+    border-right: 1px solid #d0d6d9;
+    border-bottom: 1px solid #d0d6d9;
+    display: flex;
+    align-items: center;
+}
+.figure{
+    color: #f01400;
+}
+.youth{
+    color: #f01400;
+}
+.box-six{
+    grid-column-start: 11;
+    grid-column-end: 6;
+    padding-left: 10px;
+    border-bottom: 1px solid #d0d6d9;
+    display: flex;
+    align-items: center;
+}
+.box-seven{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.box-eight{
+    grid-column-start: 11;
+    grid-column-end: 5;
+    border-left: 1px solid #d0d6d9;
+    border-bottom: 1px solid #d0d6d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.man{
+    color: black;
+}
+.box-nine{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    line-height: 30px;
+}
+.box-ten{
+    grid-column-start: 11;
+    grid-column-end: 5;
+    border-left: 1px solid #d0d6d9;
+    border-bottom: 1px solid #d0d6d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.box-eleven{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-bottom: 1px solid #d0d6d9;
+}
+.box-twelve{
+    grid-column-start: 11;
+    grid-column-end: 5;
+    border-left: 1px solid #d0d6d9;
+    border-bottom: 1px solid #d0d6d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.box-thirteen{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    padding-left: 10px;
+    border-bottom: 1px solid #d0d6d9;
+    line-height: 30px;
+}
+.person{
+    color: #f01400;
+ }
+.person:hover{
+    color: #f01400;
+    text-decoration: none;
+}
+.box-zero{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    padding-left: 10px;
+    line-height: 30px;
+}
+.box-fifteen{
+    display: none;
+    position: absolute;
+    text-align: center;
+    padding: 80px 40px 40px 40px;
+    height: 390px;
+    background-color: #3d3d3d;
+    opacity: 0.9;
+    -webkit-animation: gogogo 1s;
+}
+@keyframes gogogo{
+    0%{
+        left: 100%;
+        top: 0;
+    }
+    25%{
+        left: 0;
+        top: 0;
+    }
+}
+.teacher{
+    color: #fff;
+}
+.apple{
+    color: #fff;
+}
+.wrapper:hover .box-fifteen{
+    display: block;
+}
+.even a{
+    text-decoration: none;
+    color: black;
+}
+.direction a{
+    text-decoration: none;
+    color: black;
 }

@@ -137,6 +137,10 @@ header{
     border-bottom:2px solid #fff;
     color: #fff;
 }
+.read {
+    float: right;
+    text-align: center;
+}
 .rocket{
     text-align: center;
     margin-top: 6vw;
