@@ -230,6 +230,13 @@ ul, ol {
     float: left;
     margin-left: 5px;
 }
+@media (max-width: 600px) {
+    .stand {
+        float: none;
+        width: 98%;
+        height: 100%;
+    }
+}
 .company{
     padding: 40px;
 }

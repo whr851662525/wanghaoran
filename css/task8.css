@@ -180,6 +180,11 @@ header{
     margin-left: 25px;
     border-left: dashed thin #dedede;
 }
+@media (max-width: 992px) {
+    .now {
+        border:none;
+    }
+}
 .learn{
     padding-top: 6vw;
     margin-bottom: 6vw;
@@ -308,6 +313,7 @@ header{
 }
 .software{
     color: #afafaf;
+    border-bottom: 1px solid #fafafa;
 }
 .teacher{
     display: flex;
