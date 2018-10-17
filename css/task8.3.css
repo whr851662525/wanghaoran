@@ -1,0 +1,238 @@
+body{
+    margin: 0;
+}
+header{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (min-width: 768px){
+    .navbar {
+        border-radius: 0px;
+    }
+}
+.service {
+    color: #29b078;
+    margin-left: 46px;
+}
+.contact{
+    margin-right: 45px;
+}
+.monkey{
+    display: none;
+}
+@media (max-width: 750px){
+    .monkey{
+        display: block;
+        white-space: nowrap;
+    }
+}
+.cat{
+    display: none;
+}
+@media (max-width: 750px){
+    .cat{
+        display: block;
+        white-space: nowrap;
+    }
+}
+.signal{
+    margin-right: 3px;
+}
+@media (max-width: 750px){
+    .service{
+        display: none;
+    }
+}
+@media (max-width: 750px){
+    .contact{
+        display: none;
+    }
+}
+.login{
+    display: none;
+}
+@media (max-width: 750px){
+    .login {
+        display: block;
+        white-space: nowrap;
+        margin-right: 45px;
+        font-size: 1.7rem;
+    }
+}
+.wait{
+    color: #29b078;
+}
+.wait:hover{
+    color: #29b078;
+    text-decoration: none;
+}
+.pour{
+    color: #29b078;
+}
+.pour:hover{
+    color: #29b078;
+    text-decoration: none;
+}
+.navbar-brand {
+    float: left;
+    padding: 15px 15px;
+    font-size: 18px;
+    height: 65px;
+}
+.navbar-default {
+    height: auto;
+    background-color: #29b078;
+}
+.navbar-nav {
+    text-align:center;
+    margin-top: 10px;
+}
+@media screen and (min-width: 767px) {
+    .navbar-nav {
+        float: right;
+    }
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 18px;
+    margin-right: 50px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.box{
+    margin-left: 30px;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fafafa;
+    background-color: #29b078;
+}
+.navbar-nav:hover  .active {
+    background-color: #29b078;
+    border-bottom:2px solid #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #29b078;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: #29b078;
+    border-bottom:2px solid #fff;
+    color: #fff;
+}
+.script{
+    background-color: #29b078;
+    padding-top: 25px;
+    color: #fff;
+    padding-bottom: 35px;
+    margin-top: 15px;
+}
+.our{
+    color: #fff;
+}
+.read{
+    float: right;
+    text-align: center;
+}
+.setout{
+    background-color: #29b078;
+    border-top: 0.1rem solid #32c068;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.our:hover{
+    color: #fff;
+}
+.grass{
+    color: #fff;
+}
+.grass:hover{
+    color: #fff;
+}
+.hold{
+    background-image: url(../img/task8.3.2.png);
+    width: 100%;
+    height: 13vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hand{
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+.first{
+    font-weight: bold;
+}
+.partner{
+    color: #29b078;
+}
+.firm{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 2px;
+    border: 1px solid #e6e6e6;
+}
+li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.menu{
+    border: 1px solid #e6e6e6;
+    display: flex;
+    justify-content: center;
+}
+.correct{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ff640c;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.murphy:hover .correct{
+    background-color: #ff640c;
+}
+ul, ol {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.error{
+    color: #29b078;
+}
+.murphy:hover .error{
+    color: #ff640c;
+}
+.box-look{
+    margin-bottom: 15px;
+}
+.box-love{
+    margin-bottom: 30px;
+}
+.tactic{
+    border: 1px solid #e6e6e6;
+}
+.stand{
+    float: left;
+    margin-left: 5px;
+}
+.company{
+    padding: 40px;
+}
+.like p{
+    padding: 20px;
+}

@@ -120,10 +120,6 @@ header{
     color: #fafafa;
     background-color: #29b078;
 }
-.navbar-default .navbar-nav>.active>a{
-    color: #fafafa;
-    background-color: #29b078;
-}
 .navbar-nav:hover  .active {
     background-color: #29b078;
     border-bottom:2px solid #fff;
