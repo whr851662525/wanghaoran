@@ -170,6 +170,8 @@ header{
     padding-bottom: 1.5rem;
     border-bottom: thin solid #d0d6d9;
     font-size: 1.7rem;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .career{
     color: #29b078;
@@ -182,6 +184,8 @@ header{
     padding-bottom: 1.5rem;
     border-bottom: thin solid #d0d6d9;
     font-size: 1.7rem;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .move{
     color: #999;
@@ -204,6 +208,8 @@ header{
     border-bottom: thin solid #d0d6d9;
     font-size: 1.7rem;
     font-weight: bold;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .wrapper{
     display: grid;
@@ -365,16 +371,14 @@ header{
     height: 390px;
     background-color: #3d3d3d;
     opacity: 0.9;
-    -webkit-animation: gogogo 1s;
+    -webkit-animation: gogogo 2.5s;
 }
 @keyframes gogogo{
     0%{
-        left: 100%;
-        top: 0;
+        -webkit-transform: rotateY(0deg);
     }
-    25%{
-        left: 0;
-        top: 0;
+    100%{
+        -webkit-transform: rotateY(720deg);
     }
 }
 .teacher{

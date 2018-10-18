@@ -171,9 +171,14 @@ header{
     background-repeat: no-repeat;
     background-size: contain;
 }
+.six{
+    margin-left: 32px;
+    margin-right: 32px;
+}
 .hand{
     padding-top: 20px;
     padding-bottom: 15px;
+    padding-left: 13px;
 }
 .first{
     font-weight: bold;
@@ -189,7 +194,6 @@ header{
 }
 li{
     list-style-type: none;
-    padding-bottom: 10px;
 }
 .menu{
     border: 1px solid #e6e6e6;
