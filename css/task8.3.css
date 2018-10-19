@@ -1,11 +1,10 @@
 body{
     margin: 0;
+    background-color: #fafafa;
 }
 header{
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 35px;
+    line-height: 35px;
 }
 @media (min-width: 768px){
     .navbar {
@@ -14,10 +13,16 @@ header{
 }
 .service {
     color: #29b078;
-    margin-left: 46px;
+    float: left;
 }
 .contact{
-    margin-right: 45px;
+    float: right;
+}
+.contact{
+    float: right;
+}
+.pubu{
+    background-color: #29b078;
 }
 .monkey{
     display: none;
@@ -57,7 +62,7 @@ header{
     .login {
         display: block;
         white-space: nowrap;
-        margin-right: 45px;
+        float: right;
         font-size: 1.7rem;
     }
 }
@@ -99,15 +104,11 @@ header{
     float: right;
     padding: 9px 10px;
     margin-top: 18px;
-    margin-right: 50px;
     margin-bottom: 8px;
     background-color: transparent;
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-}
-.box{
-    margin-left: 30px;
 }
 .navbar {
     position: relative;
@@ -122,7 +123,7 @@ header{
 }
 .navbar-nav:hover  .active {
     background-color: #29b078;
-    border-bottom:1px solid #fff;
+    border-bottom:2px solid #fff;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #fff;
@@ -171,10 +172,6 @@ header{
     background-repeat: no-repeat;
     background-size: contain;
 }
-.six{
-    margin-left: 32px;
-    margin-right: 32px;
-}
 .hand{
     padding-top: 20px;
     padding-bottom: 15px;
@@ -192,8 +189,9 @@ header{
     padding-top: 2px;
     border: 1px solid #e6e6e6;
 }
-li{
+.murphy{
     list-style-type: none;
+    margin-bottom: 15px;
 }
 .menu{
     border: 1px solid #e6e6e6;

@@ -3,10 +3,8 @@ body{
     background-color: #fafafa;
 }
 header{
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    height: 35px;
+    line-height: 35px;
 }
 @media (min-width: 768px){
     .navbar {
@@ -15,10 +13,13 @@ header{
 }
 .service {
     color: #29b078;
-    margin-left: 46px;
+    float: left;
 }
 .contact{
-    margin-right: 45px;
+    float: right;
+}
+.pubu{
+    background-color: #29b078;
 }
 .monkey{
     display: none;
@@ -58,7 +59,7 @@ header{
     .login {
         display: block;
         white-space: nowrap;
-        margin-right: 45px;
+        float: right;
         font-size: 1.7rem;
     }
 }
@@ -100,15 +101,11 @@ header{
     float: right;
     padding: 9px 10px;
     margin-top: 18px;
-    margin-right: 50px;
     margin-bottom: 8px;
     background-color: transparent;
     background-image: none;
     border: 1px solid transparent;
     border-radius: 4px;
-}
-.box{
-    margin-left: 30px;
 }
 .navbar {
     position: relative;
