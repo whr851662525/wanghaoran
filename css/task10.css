@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    background-color: #fff;
+}
+header{
+    height: 40px;
+    background-color: #1d7ad9;
+}
+.guest{
+    float: left;
+    color: #fff;
+    line-height: 40px;
+}
+.wait{
+     float: right;
+     border-left: 0.5px solid #fff;
+     border-right: 0.5px solid #fff;
+ }
+.rank{
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    line-height: 40px;
+}
+.rank:hover{
+    color: black;
+    background-color: #fff;
+    padding: 12px 30px 12px 30px;
+}
+.history{
+    height: 70px;
+    background-color: #f8f8f8;
+    margin-bottom: 30px;
+}
+.nav{
+    margin-top: 5px;
+}
+@media (min-width: 768px) {
+    .nav{
+        float: right;
+        margin-top: 5px;
+    }
+}
+@media (min-width: 768px) {
+    .nav {
+        overflow: auto;
+        margin-top: 5px;
+    }
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+.navbar-default{
+    background-color: #f8f8f8;
+    border-color: #f8f8f8;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 16px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+.navbar-default .navbar-nav > li > a :hover{
+    color: #fafafa;
+}
+.nav > li {
+    position: relative;
+    display: block;
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 6px;
+    font-size: 1.6rem;
+    margin-top: 5px;
+}
+.nav > li:hover{
+    background-color: #1d7ad9;
+}
+.navbar-default .navbar-nav > li > a:hover{
+    color: #fff;
+}
+.navbar-default{
+    border-color: #f8f8f8;
+    text-align: center;
+}
+.box-one{
+    width: 50px;
+    height: 5px;
+    background-color: #ccc;
+    display: inline-block;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.box-two{
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+}
+.attach{
+    float: right;
+}
+@media screen and (max-width: 439px){
+    .attach{
+        text-align: center;
+    }
+}
+.coach{
+    display: inline-block;
+    text-align: center;
+}
+.action p{
+    color: #ccc;
+    margin-top: 20px;
+}
+.coach:hover .box-one{
+    background-color: #ff7f02;
+}
+.coach:hover .box-two{
+    background-color: #ff7f02;
+}
+.coach:hover .action p{
+    color: #ff7f02;
+}
+.love{
+     margin-top: 10px;
+     margin-bottom: 45px;
+}
+.size{
+    border-left: 4px solid #1d7ad9;
+    font-size: 1.8rem;
+}
+.entire{
+    border: 1px solid #e7e7e7;
+}
+.form{
+    border: 1px solid #e7e7e7;
+    background-color: #e7e7e7;
+    height: 35px;
+    line-height: 30px;
+}
+.await{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.shape{
+    color: #1d7ad9;
+}
+.case{
+    padding: 30px 0 30px 5vw;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin: 4px 6px 0;
+    line-height: normal;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.sky{
+    padding-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+input[type="radio"] + label::before {
+    content: "\a0";
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 1em;
+    height: 1em;
+    margin-right: .4em;
+    border-radius: 50%;
+    border: 1px solid #1d7ad9;
+    text-indent: .15em;
+    line-height: 1;
+}
+input[type="radio"]:checked + label::before {
+    background-color: #fff;
+    background-clip: content-box;
+    padding: 2px;
+    border: 7px solid #1d7ad9;
+    border-radius: 50%;
+}
+input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+@media screen and (min-width: 1000px){
+    .check {
+        float: right;
+    }
+}
+select{
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    position: relative;
+    border: solid 1px #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(../img/task10.5.png) no-repeat scroll right center transparent;
+}
+select::-ms-expand {
+    display: none;
+}
+.cap{
+    padding: 30px 0 0 4vw;
+}
+.length{
+    width: 50px;
+}
+.group{
+    padding: 0 0 30px 4vw;
+}
+.shear{
+    margin-left: 18px;
+    margin-right: 12px;
+}
+.learn{
+    padding: 30px 0 30px 3vw;
+}
+@media screen and (min-width: 1000px) {
+    .skill {
+        float: right;
+        margin-top: -22px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .quilt {
+        float: right;
+        margin-top: -6px;
+    }
+}
+.back{
+    padding: 10vw 40% 5vw 40%;
+    border-top:1px solid #ccc;
+}
+.back p{
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: #e15053;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.chiefly{
+    color: #ccc;
+}
+.flow{
+    color: #ccc;
+}
+.flow:hover{
+    color: #1d7ad9;
+}
+.relation{
+    color: #ccc;
+}
+.relation:hover{
+    color: #1d7ad9;
+}
