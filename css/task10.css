@@ -15,7 +15,10 @@ header{
      float: right;
      border-left: 0.5px solid #fff;
      border-right: 0.5px solid #fff;
- }
+}
+.size p{
+     margin-bottom: 0;
+}
 .rank{
     color: #fff;
     padding: 10px 10px 10px 10px;
