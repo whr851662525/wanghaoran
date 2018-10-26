@@ -1,0 +1,78 @@
+$one: #1a9ee4;
+$two: #ccc;
+$three: #fff;
+$four: 1.5rem;
+$five: 40px;
+body {
+  margin: 0;
+  background-color: #f0f4f7;
+}
+header{
+  background-color: $one;
+  .head-picture{
+    display: flex;
+    padding-top: ($five / 4);
+    padding-bottom: ($five / 4);
+  }
+}
+.register{
+  color: $three;
+  font-size: $four;
+  margin-left: $five;
+}
+
+.arrows{
+  margin-left: ($five / 4);
+}
+.import{
+  background-color: $three;
+  display: flex;
+  margin-bottom: ($five / 8);;
+  margin-top: ($five / 4);
+  .phone{
+    margin-left: ($five / 4);
+    margin-right: ($five / 4);
+    padding-top: ($five / 6);
+  }
+}
+input{
+  height: ($five * 1.25);
+  width: 85%;
+  border: none;
+}
+.import-box{
+  background-color: $three;
+  display: flex;
+  margin-bottom: ($five / 8);;
+  margin-top: ($five / 4);
+  .phone{
+    margin-left: ($five / 4);
+    margin-right: ($five / 4);
+    padding-top: ($five / 6);
+  }
+}
+.tips{
+  width: 100%;
+  margin-top: $five;
+  padding-left: 10%;
+  padding-right: 10%;
+  .somatic{
+    width: 80%;
+    height: $five;
+    background-color: $one;
+    text-align:center;
+    line-height: ($five / 1.14);
+    border-radius: ($five / 8);
+    color: $three;
+  }
+}
+.register-two{
+  float: left;
+  color: $two;
+  margin-left: ($five / 4);
+}
+.forget{
+  float: right;
+  color: $two;
+  margin-right: ($five / 4);
+}
