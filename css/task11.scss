@@ -52,12 +52,11 @@ input{
   }
 }
 .tips{
-  width: 100%;
   margin-top: $five;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 10vw;
+  padding-right: 10vw;
   .somatic{
-    width: 80%;
+    width: 80vw;
     height: $five;
     background-color: $one;
     text-align:center;
@@ -75,4 +74,38 @@ input{
   float: right;
   color: $two;
   margin-right: ($five / 4);
+}
+.alert{
+  margin-bottom: ($five * 4);
+}
+.empty{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccc;
+  .left{
+    height: 1px;
+    width: 20%;
+    background-color: #ccc;
+  }
+  .third{
+    margin-left: ($five / 4);
+    margin-right: ($five / 4);
+  }
+}
+.way{
+  display: flex;
+  justify-content: center;
+  margin-top: $five;
+  .wechat{
+    text-align: center;
+  }
+  .microblog{
+    text-align: center;
+    margin-left: ($five / 2);
+    margin-right: ($five / 2);
+  }
+  .tencent{
+    text-align: center;
+  }
 }
