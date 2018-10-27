@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background-color: #f0f4f7; }
+
+header {
+  background-color: #1a9ee4; }
+  header .head-picture {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+
+.register {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-left: 40px; }
+
+.arrows {
+  margin-left: 10px; }
+
+.import {
+  background-color: #fff;
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: 10px; }
+  .import .phone {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 6.6666666667px; }
+
+input {
+  height: 50px;
+  width: 85%;
+  border: none; }
+
+.import-box {
+  background-color: #fff;
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: 10px; }
+  .import-box .phone {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 6.6666666667px; }
+
+.tips {
+  margin-top: 40px;
+  padding-left: 10vw;
+  padding-right: 10vw; }
+  .tips .somatic {
+    width: 80vw;
+    height: 40px;
+    background-color: #1a9ee4;
+    text-align: center;
+    line-height: 35.0877192982px;
+    border-radius: 5px;
+    color: #fff; }
+
+.register-two {
+  float: left;
+  color: #ccc;
+  margin-left: 10px; }
+
+.forget {
+  float: right;
+  color: #ccc;
+  margin-right: 10px; }
+
+.alert {
+  margin-bottom: 160px; }
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccc; }
+  .empty .left {
+    height: 1px;
+    width: 20%;
+    background-color: #ccc; }
+  .empty .third {
+    margin-left: 10px;
+    margin-right: 10px; }
+
+.way {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px; }
+  .way .wechat {
+    text-align: center; }
+  .way .microblog {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px; }
+  .way .tencent {
+    text-align: center; }
+
+/*# sourceMappingURL=task11.css.map */
