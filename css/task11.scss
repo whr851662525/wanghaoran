@@ -4,8 +4,11 @@ $three: #fff;
 $four: 1.5rem;
 $five: 40px;
 body {
-  margin: 0;
+  margin: 0 auto;
   background-color: #f0f4f7;
+  min-width: 780px;
+  max-width: 320px;
+  text-align:center;
 }
 header{
   background-color: $one;
@@ -39,6 +42,7 @@ input{
   height: ($five * 1.25);
   width: 85%;
   border: none;
+  outline: none;
 }
 .import-box{
   background-color: $three;
@@ -53,10 +57,9 @@ input{
 }
 .tips{
   margin-top: $five;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
   .somatic{
-    width: 80vw;
     height: $five;
     background-color: $one;
     text-align:center;
@@ -68,12 +71,12 @@ input{
 .register-two{
   float: left;
   color: $two;
-  margin-left: ($five / 4);
+  margin-left: 3vw;
 }
 .forget{
   float: right;
   color: $two;
-  margin-right: ($five / 4);
+  margin-right: 3vw;
 }
 .alert{
   margin-bottom: ($five * 4);
