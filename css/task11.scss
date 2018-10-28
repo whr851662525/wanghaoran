@@ -47,6 +47,8 @@ input{
   width: 85%;
   border: none;
   outline: none;
+  border-left: 1px solid #ccc;
+  padding-left: 5px;
 }
 .import-box{
   background-color: $three;
