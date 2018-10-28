@@ -1,9 +1,10 @@
 body {
   margin: 0 auto;
-  background-color: #f0f4f7;
-  min-width: 780px;
-  max-width: 320px;
-  text-align: center; }
+  min-width: 320px;
+  max-width: 780px; }
+
+main {
+  background-color: #f0f4f7; }
 
 header {
   background-color: #1a9ee4; }
@@ -14,7 +15,7 @@ header {
 
 .register {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin-left: 40px; }
 
 .arrows {
@@ -24,7 +25,9 @@ header {
   background-color: #fff;
   display: flex;
   margin-bottom: 5px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-right: 2px; }
   .import .phone {
     margin-left: 10px;
     margin-right: 10px;
@@ -40,7 +43,9 @@ input {
   background-color: #fff;
   display: flex;
   margin-bottom: 5px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-left: 2px;
+  margin-right: 2px; }
   .import-box .phone {
     margin-left: 10px;
     margin-right: 10px;
@@ -96,5 +101,14 @@ input {
     margin-right: 20px; }
   .way .tencent {
     text-align: center; }
+
+.wechat p {
+  font-size: 0.9rem; }
+
+.microblog p {
+  font-size: 0.9rem; }
+
+.tencent p {
+  font-size: 0.9rem; }
 
 /*# sourceMappingURL=task11.css.map */
