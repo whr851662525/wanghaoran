@@ -9,13 +9,13 @@ header {
 .consult {
   width: 100%;
   height: 60px;
-  background: mediumturquoise;
+  background: #55a8b3;
   display: flex;
   justify-content: center;
   align-items: center; }
 
 .look {
-  margin-left: 18px;
+  margin-left: 18.018018018px;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -56,7 +56,7 @@ header {
 
 .box {
   width: 33.33%;
-  height: 50px;
+  height: 32px;
   overflow: hidden;
   cursor: pointer;
   transition: all 0.35s; }
@@ -74,7 +74,7 @@ header {
   line-height: 50px;
   text-align: center;
   border: 1px #999 solid;
-  background: #ffffff;
+  background: #fff;
   color: #999;
   font-size: 1.1rem;
   background-image: url(../../img/task6.4.png);
@@ -101,7 +101,7 @@ header {
   line-height: 50px;
   text-align: center;
   border: 1px #999 solid;
-  background: #ffffff;
+  background: #fff;
   color: #999;
   font-size: 1.1rem;
   background-image: url(../../img/task6.4.png);
@@ -128,7 +128,7 @@ header {
   line-height: 50px;
   text-align: center;
   border: 1px #999 solid;
-  background: #ffffff;
+  background: #fff;
   color: #999;
   font-size: 1.1rem;
   background-image: url(../../img/task6.4.png);
@@ -136,7 +136,7 @@ header {
   background-position: 97% 20px; }
 
 .serve {
-  height: 35px;
+  height: 35.0262697023px;
   padding-top: 20px; }
 
 .time {
@@ -152,8 +152,8 @@ header {
 .figure {
   height: 50px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   margin-left: 80px; }
 
 .year {
@@ -172,7 +172,7 @@ header {
   margin-left: 10px; }
 
 .location {
-  height: 35px;
+  height: 35.0262697023px;
   padding-bottom: 8px;
   border-bottom: 1px solid #999;
   display: flex;
@@ -196,7 +196,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #f8fafb;
+  background: #fff;
   position: fixed;
   bottom: 0; }
 
@@ -206,16 +206,16 @@ header {
 
 .earlier {
   text-align: center;
-  color: mediumturquoise; }
+  color: #55a8b3; }
 
 .write {
   width: 70px;
   height: 70px;
-  background: mediumturquoise;
+  background: #55a8b3;
   border-radius: 50%;
   background-image: url(../../img/task6.7.png);
   background-repeat: no-repeat;
-  background-position: 17px 12px; }
+  background-position: 17.0068027211px 18.00180018px; }
 
 .person {
   width: 40px;

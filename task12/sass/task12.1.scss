@@ -1,4 +1,5 @@
-$one: #1a9ee4;
+@import "utils/mixin";
+$one: #55a8b3;
 $two: #999;
 $three: #fff;
 $five: 40px;
@@ -12,38 +13,34 @@ header{
 }
 .consult{
   width: 100%;
-  height: 60px;
-  background: mediumturquoise;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: ($five * 1.5);
+  background: $one;
+  @include layout;
 }
 .look{
-  margin-left: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: ($five / 2.22);
+  @include layout;
 }
 .employer{
-  width: 200px;
-  height: 50px;
-  line-height: 45px;
+  width: ($five * 5);
+  height: ($five * 1.25);
+  line-height: ($five * 1.125);
   font-size: 1.5rem;
-  border-radius: 8px;
+  border-radius: ($five / 5);
   text-align: center;
-  color: #fff;
-  background: #55a8b3;
+  color: $three;
+  background: $one;
 }
 .worker{
   float: right;
-  width: 100px;
-  height: 50px;
-  line-height: 45px;
-  background: #fff;
+  width: ($five * 2.5);
+  height: ($five * 1.25);
+  line-height: ($five * 1.125);
+  background: $three;
   font-size: 1.5rem;
-  border-radius: 8px;
+  border-radius: ($five / 5);
   text-align: center;
-  color: #55a8b3;
+  color: $one;
 }
 .icon{
   position: absolute;
@@ -52,21 +49,21 @@ header{
 .below{
   display: flex;
   width: 100%;
-  height: 50px;
-  border-bottom: 1px solid #999;
+  height: ($five * 1.25);
+  border-bottom: 1px solid $two;
 }
 .scenery{
-  height: 110px;
+  height: ($five * 2.75);
 }
 .box{
   width: 33.33%;
-  height: 50px;
+  height: ($five / 1.25);
   overflow: hidden;
   cursor: pointer;
   transition: all 0.35s;
 }
 .box:hover{
-  height:250px;
+  height: ($five * 6.25);
   z-index: 99;
 }
 .box ul{
@@ -74,25 +71,25 @@ header{
   margin:0; padding:0;
 }
 .box ul li{
-  line-height: 50px;
+  line-height: ($five * 1.25);
   text-align: center;
-  border:1px #999 solid;
-  background:#ffffff;
-  color:#999;
+  border:1px $two solid;
+  background:$three;
+  color:$two;
   font-size:1.1rem;
   background-image: url(../../img/task6.4.png);
   background-repeat: no-repeat;
-  background-position:97% 20px;
+  background-position:97% ($five / 2);
 }
 .old{
   width: 33.33%;
-  height: 50px;
+  height: ($five * 1.25);
   overflow: hidden;
   cursor: pointer;
   transition: all 0.35s;
 }
 .old:hover{
-  height: 250px;
+  height: ($five * 6.25);
   z-index: 99;
 }
 .deny{
@@ -100,25 +97,25 @@ header{
   margin:0; padding:0;
 }
 .old ul li{
-  line-height: 50px;
+  line-height: ($five * 1.25);
   text-align: center;
-  border:1px #999 solid;
-  background:#ffffff;
-  color:#999;
+  border:1px $two solid;
+  background:$three;
+  color:$two;
   font-size:1.1rem;
   background-image: url(../../img/task6.4.png);
   background-repeat: no-repeat;
-  background-position:97% 20px;
+  background-position:97% ($five / 2);
 }
 .patient{
   width: 33.33%;
-  height: 50px;
+  height: ($five * 1.25);
   overflow: hidden;
   cursor: pointer;
   transition: all 0.35s;
 }
 .patient:hover{
-  height: 250px;
+  height: ($five * 6.25);
   z-index: 99;
 }
 .oneself{
@@ -126,36 +123,36 @@ header{
   margin:0; padding:0;
 }
 .patient ul li{
-  line-height: 50px;
+  line-height: ($five * 1.25);
   text-align: center;
-  border:1px #999 solid;
-  background:#ffffff;
-  color:#999;
+  border:1px $two solid;
+  background:$three;
+  color:$two;
   font-size:1.1rem;
   background-image: url(../../img/task6.4.png);
   background-repeat: no-repeat;
-  background-position:97% 20px;
+  background-position:97% ($five / 2);
 }
 .serve{
-  height: 35px;
-  padding-top: 20px;
+  height: ($five / 1.142);
+  padding-top: ($five / 2);
 }
 .time{
   float: left;
-  margin-left: 45px;
-  margin-right: 10px;
-  padding-top: 2px;
+  margin-left: ($five * 1.125);
+  margin-right: ($five / 4);
+  padding-top: ($five / 20);
 }
 .date{
   font-size: 1.1rem;
-  color: #999;
+  color: $two;
 }
 .figure{
-  height: 50px;
+  height: ($five * 1.25);
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  margin-left: 80px;
+  align-items: center;
+  margin-left: ($five * 2);
 }
 .year{
   width: 36%;
@@ -170,59 +167,59 @@ header{
 }
 .import{
   vertical-align: middle;
-  margin-left: 10px;
+  margin-left: ($five / 4);
 }
 .location{
-  height: 35px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #999;
+  height: ($five / 1.142);
+  padding-bottom: ($five / 5);
+  border-bottom: 1px solid $two;
   display: flex;
   align-items: center;
 }
 .sign{
-  margin-left: 45px;
-  margin-right: 10px;
+  margin-left: ($five * 1.125);
+  margin-right: ($five / 4);
 }
 .orchard{
   font-size: 1.1rem;
-  color: #999;
+  color: $two;
 }
 .rectangle{
-  height: 80px;
+  height: ($five * 2);
 }
 .tail{
   width: 100%;
-  height:82px;
-  border-top: 1px solid #999;;
+  height:($five * 2.05);
+  border-top: 1px solid $two;;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: #f8fafb;
+  background: $three;
   position: fixed;
   bottom: 0;
 }
 .house{
-  height: 65px;
-  width: 45px;
+  height: ($five * 1.625);
+  width: ($five * 1.125);
 }
 .earlier {
   text-align: center;
-  color: mediumturquoise;
+  color: $one;
 }
 .write{
-  width: 70px;
-  height: 70px;
-  background: mediumturquoise;
+  width: ($five * 1.75);
+  height: ($five * 1.75);
+  background: $one;
   border-radius: 50%;
   background-image: url(../../img/task6.7.png);
   background-repeat: no-repeat;
-  background-position: 17px 12px;
+  background-position: ($five / 2.352) ($five / 2.222);
 }
 .person{
-  width: 40px;
-  height: 65px;
+  width: $five;
+  height: ($five * 1.625);
 }
 .me{
   text-align: center;
-  color: #999;
+  color: $two;
 }
