@@ -16,31 +16,31 @@ header{
   height: ($five * 1.5);
   background: $one;
   @include layout;
-}
-.look{
-  margin-left: ($five / 2.22);
-  @include layout;
-}
-.employer{
-  width: ($five * 5);
-  height: ($five * 1.25);
-  line-height: ($five * 1.125);
-  font-size: 1.5rem;
-  border-radius: ($five / 5);
-  text-align: center;
-  color: $three;
-  background: $one;
-}
-.worker{
-  float: right;
-  width: ($five * 2.5);
-  height: ($five * 1.25);
-  line-height: ($five * 1.125);
-  background: $three;
-  font-size: 1.5rem;
-  border-radius: ($five / 5);
-  text-align: center;
-  color: $one;
+  .look{
+    margin-left: ($five / 2.22);
+    @include layout;
+  }
+  .employer{
+    width: ($five * 5);
+    height: ($five * 1.25);
+    line-height: ($five * 1.125);
+    font-size: 1.5rem;
+    border-radius: ($five / 5);
+    text-align: center;
+    color: $three;
+    background: $one;
+  }
+  .worker{
+    float: right;
+    width: ($five * 2.5);
+    height: ($five * 1.25);
+    line-height: ($five * 1.125);
+    background: $three;
+    font-size: 1.5rem;
+    border-radius: ($five / 5);
+    text-align: center;
+    color: $one;
+  }
 }
 .icon{
   position: absolute;
@@ -57,7 +57,7 @@ header{
 }
 .box{
   width: 33.33%;
-  height: ($five / 1.25);
+  height: ($five * 1.25);
   overflow: hidden;
   cursor: pointer;
   transition: all 0.35s;
@@ -136,16 +136,16 @@ header{
 .serve{
   height: ($five / 1.142);
   padding-top: ($five / 2);
-}
-.time{
-  float: left;
-  margin-left: ($five * 1.125);
-  margin-right: ($five / 4);
-  padding-top: ($five / 20);
-}
-.date{
-  font-size: 1.1rem;
-  color: $two;
+  .time{
+    float: left;
+    margin-left: ($five * 1.125);
+    margin-right: ($five / 4);
+    padding-top: ($five / 20);
+  }
+  .date{
+    font-size: 1.1rem;
+    color: $two;
+  }
 }
 .figure{
   height: ($five * 1.25);
@@ -153,17 +153,17 @@ header{
   justify-content: space-between;
   align-items: center;
   margin-left: ($five * 2);
-}
-.year{
-  width: 36%;
-  font-size: 1rem;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-.money{
-  font-size: 1rem;
-  color: crimson;
+  .year{
+    width: 36%;
+    font-size: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .money{
+    font-size: 1rem;
+    color: crimson;
+  }
 }
 .import{
   vertical-align: middle;
@@ -201,10 +201,10 @@ header{
 .house{
   height: ($five * 1.625);
   width: ($five * 1.125);
-}
-.earlier {
-  text-align: center;
-  color: $one;
+  .earlier {
+    text-align: center;
+    color: $one;
+  }
 }
 .write{
   width: ($five * 1.75);
@@ -218,8 +218,8 @@ header{
 .person{
   width: $five;
   height: ($five * 1.625);
-}
-.me{
-  text-align: center;
-  color: $two;
+  .me{
+    text-align: center;
+    color: $two;
+  }
 }

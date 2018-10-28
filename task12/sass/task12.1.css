@@ -13,33 +13,30 @@ header {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.look {
-  margin-left: 18.018018018px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.employer {
-  width: 200px;
-  height: 50px;
-  line-height: 45px;
-  font-size: 1.5rem;
-  border-radius: 8px;
-  text-align: center;
-  color: #fff;
-  background: #55a8b3; }
-
-.worker {
-  float: right;
-  width: 100px;
-  height: 50px;
-  line-height: 45px;
-  background: #fff;
-  font-size: 1.5rem;
-  border-radius: 8px;
-  text-align: center;
-  color: #55a8b3; }
+  .consult .look {
+    margin-left: 18.018018018px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .consult .employer {
+    width: 200px;
+    height: 50px;
+    line-height: 45px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    background: #55a8b3; }
+  .consult .worker {
+    float: right;
+    width: 100px;
+    height: 50px;
+    line-height: 45px;
+    background: #fff;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    color: #55a8b3; }
 
 .icon {
   position: absolute;
@@ -56,7 +53,7 @@ header {
 
 .box {
   width: 33.33%;
-  height: 32px;
+  height: 50px;
   overflow: hidden;
   cursor: pointer;
   transition: all 0.35s; }
@@ -138,16 +135,14 @@ header {
 .serve {
   height: 35.0262697023px;
   padding-top: 20px; }
-
-.time {
-  float: left;
-  margin-left: 45px;
-  margin-right: 10px;
-  padding-top: 2px; }
-
-.date {
-  font-size: 1.1rem;
-  color: #999; }
+  .serve .time {
+    float: left;
+    margin-left: 45px;
+    margin-right: 10px;
+    padding-top: 2px; }
+  .serve .date {
+    font-size: 1.1rem;
+    color: #999; }
 
 .figure {
   height: 50px;
@@ -155,17 +150,15 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-left: 80px; }
-
-.year {
-  width: 36%;
-  font-size: 1rem;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis; }
-
-.money {
-  font-size: 1rem;
-  color: crimson; }
+  .figure .year {
+    width: 36%;
+    font-size: 1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+  .figure .money {
+    font-size: 1rem;
+    color: crimson; }
 
 .import {
   vertical-align: middle;
@@ -203,10 +196,9 @@ header {
 .house {
   height: 65px;
   width: 45px; }
-
-.earlier {
-  text-align: center;
-  color: #55a8b3; }
+  .house .earlier {
+    text-align: center;
+    color: #55a8b3; }
 
 .write {
   width: 70px;
@@ -220,9 +212,8 @@ header {
 .person {
   width: 40px;
   height: 65px; }
-
-.me {
-  text-align: center;
-  color: #999; }
+  .person .me {
+    text-align: center;
+    color: #999; }
 
 /*# sourceMappingURL=task12.1.css.map */
