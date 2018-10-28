@@ -4,7 +4,8 @@ body {
   max-width: 780px; }
 
 main {
-  background-color: #f0f4f7; }
+  background-color: #f0f4f7;
+  height: 723px; }
 
 header {
   background-color: #1a9ee4; }
