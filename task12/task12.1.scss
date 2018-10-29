@@ -1,4 +1,4 @@
-@import "../sass/utils/mixin.css";
+@import "sass/utils/mixin.css";
 $one: #55a8b3;
 $two: #999;
 $three: #fff;
@@ -78,7 +78,7 @@ header{
   background:$three;
   color:$two;
   font-size:1.1rem;
-  background-image: url(../../img/task6.4.png);
+  background-image: url(../img/task6.4.png);
   background-repeat: no-repeat;
   background-position:97% ($five / 2);
 }
@@ -104,7 +104,7 @@ header{
   background:$three;
   color:$two;
   font-size:1.1rem;
-  background-image: url(../../img/task6.4.png);
+  background-image: url(../img/task6.4.png);
   background-repeat: no-repeat;
   background-position:97% ($five / 2);
 }
@@ -130,7 +130,7 @@ header{
   background:$three;
   color:$two;
   font-size:1.1rem;
-  background-image: url(../../img/task6.4.png);
+  background-image: url(../img/task6.4.png);
   background-repeat: no-repeat;
   background-position:97% ($five / 2);
 }
@@ -212,7 +212,7 @@ header{
   height: ($five * 1.75);
   background: $one;
   border-radius: 50%;
-  background-image: url(../../img/task6.7.png);
+  background-image: url(../img/task6.7.png);
   background-repeat: no-repeat;
   background-position: ($five / 2.352) ($five / 3.333);
 }
