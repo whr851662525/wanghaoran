@@ -1,6 +1,12 @@
 body {
   margin: 0; }
 
+.like {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 780px;
+  background-color: #fafafa; }
+
 header {
   background: #5fc0cd;
   height: 60px;
@@ -115,30 +121,34 @@ header {
   font-size: 20px; }
 
 .language {
-  width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  min-width: 320px;
+  max-width: 760px;
+  margin: 0 auto;
   position: fixed;
+  z-index: 999999;
+  width: 100%;
   bottom: 0;
-  border: none;
-  height: 58px; }
+  height: 60px;
+  background-color: #fafafa; }
   .language .this {
-    width: 30vw;
-    padding: 15.037593985px;
+    text-align: center;
+    line-height: 40px;
+    width: 40vw;
+    margin: 0 20px;
     border: 2px solid #5fc0cd;
-    border-radius: 5.7142857143px;
-    text-align: center;
-    color: #5fc0cd;
-    font-size: 20px;
-    background-color: aliceblue; }
+    border-radius: 6.6666666667px;
+    color: #5fc0cd; }
   .language .phone {
-    width: 30vw;
-    padding: 15.037593985px;
-    background: #5fc0cd;
-    border-radius: 5.7142857143px;
     text-align: center;
-    color: aliceblue;
-    font-size: 20px; }
+    line-height: 40px;
+    width: 40vw;
+    margin: 0 20px;
+    border-radius: 6.6666666667px;
+    background-color: #5fc0cd;
+    color: #fff; }
 
 .design {
   height: 200px; }

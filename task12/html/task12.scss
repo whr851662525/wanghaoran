@@ -6,6 +6,12 @@ $five: 40px;
 body{
   margin: 0;
 }
+.like{
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 780px;
+  background-color: #fafafa;
+}
 header{
   background: $one;
   height: ($five * 1.5);
@@ -133,31 +139,35 @@ header{
   font-size: ($five / 2);
 }
 .language{
-  width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  min-width: 320px;
+  max-width: 760px;
+  margin: 0 auto;
   position: fixed;
+  z-index: 999999;
+  width: 100%;
   bottom: 0;
-  border: none;
-  height: ($five * 1.45);
+  height: 60px;
+  background-color: #fafafa;
   .this{
-    width: 30vw;
-    padding: ($five / 2.66);
-    border: 2px solid $one;
-    border-radius: ($five / 7);
     text-align: center;
-    color: $one;
-    font-size: ($five / 2);
-    background-color: $three;
+    line-height: 40px;
+    width: 40vw;
+    margin: 0 20px;
+    border: 2px solid #5fc0cd;
+    border-radius: 6.6666666667px;
+    color: #5fc0cd;
   }
   .phone{
-    width: 30vw;
-    padding: ($five / 2.66);
-    background: $one;
-    border-radius: ($five / 7);
     text-align: center;
-    color: $three;
-    font-size: ($five / 2);
+    line-height: 40px;
+    width: 40vw;
+    margin: 0 20px;
+    border-radius: 6.6666666667px;
+    background-color: #5fc0cd;
+    color: #fff;
   }
 }
 .design{
