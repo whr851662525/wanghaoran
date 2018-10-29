@@ -148,12 +148,18 @@ header {
     margin: 0 20px;
     border-radius: 6.6666666667px;
     background-color: #5fc0cd;
-    color: #fff; }
+    color: #fff;
+    border: 2px solid #5fc0cd; }
 
 .design {
   height: 200px; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #fff; }
+
+.name {
+  text-decoration: none;
+  color: #5fc0cd; }
 
 /*# sourceMappingURL=task12.css.map */
