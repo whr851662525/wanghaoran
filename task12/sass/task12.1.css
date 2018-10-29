@@ -11,7 +11,7 @@ header {
   height: 60px;
   background: #55a8b3;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center; }
   .consult .look {
     margin-left: 18.018018018px;
@@ -39,8 +39,7 @@ header {
     color: #55a8b3; }
 
 .icon {
-  position: absolute;
-  left: 92%; }
+  margin-right: 20px; }
 
 .below {
   display: flex;
@@ -207,7 +206,7 @@ header {
   border-radius: 50%;
   background-image: url(../../img/task6.7.png);
   background-repeat: no-repeat;
-  background-position: 17.0068027211px 18.00180018px; }
+  background-position: 17.0068027211px 12.00120012px; }
 
 .person {
   width: 40px;

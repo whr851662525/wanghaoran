@@ -15,7 +15,9 @@ header{
   width: 100%;
   height: ($five * 1.5);
   background: $one;
-  @include layout;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   .look{
     margin-left: ($five / 2.22);
     @include layout;
@@ -43,8 +45,7 @@ header{
   }
 }
 .icon{
-  position: absolute;
-  left: 92%;
+  margin-right: 20px;
 }
 .below{
   display: flex;
@@ -213,7 +214,7 @@ header{
   border-radius: 50%;
   background-image: url(../../img/task6.7.png);
   background-repeat: no-repeat;
-  background-position: ($five / 2.352) ($five / 2.222);
+  background-position: ($five / 2.352) ($five / 3.333);
 }
 .person{
   width: $five;
