@@ -13,11 +13,16 @@ body{
   background-color: #fafafa;
 }
 header{
+  min-width: 320px;
+  max-width: 780px;
+  width: 100%;
   background: $one;
   height: ($five * 1.5);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
   .nav{
     margin: ($five / 2.66);
   }
@@ -143,7 +148,7 @@ header{
   align-items: center;
   justify-content: space-around;
   min-width: 320px;
-  max-width: 760px;
+  max-width: 780px;
   margin: 0 auto;
   position: fixed;
   z-index: 999999;
@@ -154,8 +159,7 @@ header{
   .this{
     text-align: center;
     line-height: 40px;
-    width: 40vw;
-    margin: 0 20px;
+    width: 90%;
     border: 2px solid #5fc0cd;
     border-radius: 6.6666666667px;
     color: #5fc0cd;
@@ -163,8 +167,7 @@ header{
   .phone{
     text-align: center;
     line-height: 40px;
-    width: 40vw;
-    margin: 0 20px;
+    width: 99%;
     border-radius: 6.6666666667px;
     background-color: #5fc0cd;
     color: #fff;
@@ -175,6 +178,7 @@ header{
   height: ($five * 5);
 }
 a{
+  width: 50%;
   text-decoration: none;
   color: #fff;
 }

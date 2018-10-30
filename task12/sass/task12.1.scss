@@ -1,12 +1,23 @@
 @import "../utils/mixin.scss";
-$one: #55a8b3;
+$one: #5fc0cd;
 $two: #999;
 $three: #fff;
 $five: 40px;
 body{
   margin: 0;
+  background-color: #fafafa;
+}
+.global{
+  position: relative;
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
 }
 header{
+  min-width: 320px;
+  max-width: 780px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -30,7 +41,7 @@ header{
     border-radius: ($five / 5);
     text-align: center;
     color: $three;
-    background: $one;
+    background: #55a8b3;
   }
   .worker{
     float: right;
@@ -71,7 +82,7 @@ header{
   list-style:none;
   margin:0; padding:0;
 }
-.box ul li{
+.name li{
   line-height: ($five * 1.25);
   text-align: center;
   border:1px $two solid;
@@ -81,6 +92,14 @@ header{
   background-image: url(../../img/task6.4.png);
   background-repeat: no-repeat;
   background-position:97% ($five / 2);
+}
+.home li{
+  line-height: ($five * 1.25);
+  text-align: center;
+  border:1px $two solid;
+  background:$three;
+  color:$two;
+  font-size:1.1rem;
 }
 .old{
   width: 33.33%;
@@ -97,7 +116,15 @@ header{
   list-style:none;
   margin:0; padding:0;
 }
-.old ul li{
+.with{
+  line-height: ($five * 1.25);
+  text-align: center;
+  border:1px $two solid;
+  background:$three;
+  color:$two;
+  font-size:1.1rem;
+}
+.own{
   line-height: ($five * 1.25);
   text-align: center;
   border:1px $two solid;
@@ -123,7 +150,7 @@ header{
   list-style:none;
   margin:0; padding:0;
 }
-.patient ul li{
+.hospital{
   line-height: ($five * 1.25);
   text-align: center;
   border:1px $two solid;
@@ -133,6 +160,14 @@ header{
   background-image: url(../../img/task6.4.png);
   background-repeat: no-repeat;
   background-position:97% ($five / 2);
+}
+.feeling{
+  line-height: ($five * 1.25);
+  text-align: center;
+  border:1px $two solid;
+  background:$three;
+  color:$two;
+  font-size:1.1rem;
 }
 .serve{
   height: ($five / 1.142);
@@ -189,6 +224,8 @@ header{
   height: ($five * 2);
 }
 .tail{
+  min-width: 320px;
+  max-width: 780px;
   width: 100%;
   height:($five * 2.05);
   border-top: 1px solid $two;;
