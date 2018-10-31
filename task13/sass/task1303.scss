@@ -1,0 +1,109 @@
+
+body{
+  margin: 0;
+}
+header{
+  width: 100%;
+  height: 45px;
+  background: #29bde0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  border-bottom: 2px solid #74d4eb;
+}
+.room{
+  padding-left: 3vw;
+}
+.result{
+  color: #fff;
+  font-size: 1.6rem;
+}
+.effect{
+  padding-right: 3vw;
+}
+.main{
+  width: 100%;
+  margin-top: 47px;
+  background: #29bde0;
+  text-align: center;
+}
+.lie{
+  margin:0 10% 6vw 10%;
+  font-size: 1.5rem;
+  color: #ffc865;
+  text-align: justify;
+}
+.time{
+  text-align: left;
+  margin-left: 10%;
+  color: #fff;
+}
+.identity{
+  text-align: left;
+  margin-left: 10%;
+  color: #fff;
+}
+.box{
+  height: 20px;
+}
+.sky{
+  height: 30px;
+  margin-left: 10%;
+}
+.fate{
+  font-size: 1.2rem;
+}
+.minute{
+  color: #c7c7c7;
+  margin-left: 25%;
+}
+.daytime{
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #a6a6a6;
+}
+.night{
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #a6a6a6;
+}
+.empty{
+  height: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.bazaar{
+  height: 80px;
+}
+.over{
+  width: 100%;
+  height: 80px;
+  background-color: rgba(33, 150, 243, 0.44);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+a{
+  text-decoration: none;
+}
+.recur{
+  width: 40%;
+  height: 60px;
+  background: #f66f6f;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 56px;
+}
+.share{
+  width: 40%;
+  height: 60px;
+  background: #fbb435;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 56px;
+}
