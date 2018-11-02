@@ -14,7 +14,7 @@ header{
   min-width: 320px;
   max-width: 780px;
   width: 100%;
-  height: 45px;
+  height: 60px;
   background: $one;
   display: flex;
   justify-content: space-between;
@@ -24,6 +24,7 @@ header{
   border-bottom: 2px solid #74d4eb;
   .room{
     padding-left: 3vw;
+    cursor:pointer
   }
   .result{
     color: $two;
@@ -31,6 +32,7 @@ header{
   }
   .effect{
     padding-right: 3vw;
+    cursor:pointer
   }
 }
 .main{
@@ -38,6 +40,10 @@ header{
   margin-top: 47px;
   background: $one;
   text-align: center;
+}
+.dinting{
+  margin-top: 5vw;
+  margin-bottom: 3vw;
 }
 .lie{
   margin:0 10% 6vw 10%;
@@ -61,12 +67,14 @@ header{
 .sky{
   height: 30px;
   margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
   .fate{
     font-size: 1.2rem;
   }
   .minute{
     color: #c7c7c7;
-    margin-left: 25%;
+    margin-right: 8vw;
   }
 }
 .daytime{
@@ -99,6 +107,7 @@ header{
   bottom: 0;
   a{
     text-decoration: none;
+    color: #fff;
   }
   .recur{
     width: 40%;
@@ -117,5 +126,6 @@ header{
     text-align: center;
     border-radius: 10px;
     line-height: 56px;
+    color: #fff;
   }
 }

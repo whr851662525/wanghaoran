@@ -7,18 +7,21 @@ body {
   max-width: 780px;
   margin: 0 auto;
   background-color: #fafafa;
-  height: 100vh; }
+  height: 100vh;
+  position: relative;
+  overflow: hidden; }
 
 .picture-one {
-  margin-left: 3px; }
+  margin-left: 3px;
+  margin-right: 1px; }
 
 .picture-three {
   margin-left: 3px;
-  margin-right: 3px; }
+  margin-right: 4px; }
 
 .picture-four {
-  margin-left: 4px;
-  margin-right: 4px; }
+  margin-left: 5px;
+  margin-right: 6px; }
 
 aside {
   position: absolute;

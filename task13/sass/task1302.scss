@@ -25,6 +25,7 @@ header{
 }
 .menu{
   margin-left: 20px;
+  cursor:pointer
 }
 .cast{
   color: $two;
@@ -32,6 +33,7 @@ header{
 }
 .wrong{
   margin-right: 20px;
+  cursor:pointer
 }
 .say{
   margin-top: 55px;
@@ -85,7 +87,7 @@ audio{
   width: 80px;
   height: 80px;
   background: #f5c97b;
-  border: 1vw solid $two;
+  border: 5px solid $two;
 }
 .block{
   text-align: center;
@@ -97,11 +99,11 @@ audio{
   line-height: 21px;
 }
 .cold{
-  width: 97px;
+  width: 90px;
   height: 28px;
   background-image: url(../../img/7.2.3.png);
   background-repeat: no-repeat;
-  background-size: 87px;
+  background-size: 90px;
   margin-top: 7px;
   opacity: 0;
 }
