@@ -7,8 +7,12 @@ body{
   margin: 0;
   background:$two;
 }
-header{
-
+.max{
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  height: 100vh;
 }
 .picture-one{
   margin-left: 3px;
