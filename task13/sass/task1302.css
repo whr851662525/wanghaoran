@@ -1,0 +1,154 @@
+body {
+  margin: 0; }
+
+.max {
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
+  background: #29bde0;
+  height: 100vh; }
+
+header {
+  min-width: 320px;
+  max-width: 780px;
+  width: 100%;
+  height: 55px;
+  background: #29bde0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0; }
+
+.menu {
+  margin-left: 20px; }
+
+.cast {
+  color: #fff;
+  font-size: 1.5rem; }
+
+.wrong {
+  margin-right: 20px; }
+
+.say {
+  margin-top: 55px;
+  height: 70px;
+  background: #b9e9f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  position: relative; }
+
+.please {
+  margin-left: 50px; }
+
+.please-one {
+  margin-right: 15px; }
+
+audio {
+  opacity: 0;
+  width: 78px;
+  position: absolute;
+  right: -10px; }
+
+.greens {
+  width: 100%;
+  background: #29bde0; }
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #b9e9f5;
+  margin-left: 66px; }
+
+.click {
+  height: 50px;
+  background: #29bde0;
+  color: #fff;
+  line-height: 30px;
+  padding-left: 65px; }
+
+.lake {
+  display: flex;
+  justify-content: space-around; }
+
+.figure:hover + .cold {
+  opacity: 1; }
+
+.figure {
+  width: 80px;
+  height: 80px;
+  background: #f5c97b;
+  border: 1vw solid #fff; }
+
+.block {
+  text-align: center;
+  line-height: 60px; }
+
+.number {
+  background: #83b09a;
+  text-align: center;
+  line-height: 21px; }
+
+.cold {
+  width: 97px;
+  height: 28px;
+  background-image: url(../../img/7.2.3.png);
+  background-repeat: no-repeat;
+  background-size: 87px;
+  margin-top: 7px;
+  opacity: 0; }
+
+.tool {
+  height: 30px;
+  width: 30px;
+  background-position: -40px 0; }
+
+.mirror {
+  height: 30px;
+  width: 30px;
+  background-position: -80px 0; }
+
+.permit {
+  height: 30px;
+  width: 30px;
+  background-position: -120px 0; }
+
+.cross {
+  height: 30px;
+  width: 30px;
+  background-position: 0 0; }
+
+.look {
+  height: 30px; }
+
+.vote {
+  min-width: 320px;
+  max-width: 780px;
+  width: 100%;
+  height: 12%;
+  position: fixed;
+  bottom: 0;
+  background: #29bde0;
+  border-top: 2px solid #74d4eb;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+a {
+  text-decoration: none; }
+
+.agree {
+  width: 40vw;
+  height: 65%;
+  background: #fbb435;
+  text-align: center;
+  line-height: 48px;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 2%; }
+
+/*# sourceMappingURL=task1302.css.map */
