@@ -38,7 +38,7 @@
 <div class="reveal default center" role="application" data-transition-speed="slow" data-background-transition="fade">
     <div class="slides" style="width: 960px; height: 700px; left: 50%; top: 50%; bottom: auto; right: auto; transform: translate(-50%, -50%) scale(0.756);">
         <section class="past" style="top: 158px; display: none;" hidden="" aria-hidden="true">
-            <h3>【CSS3-Flexbox】弹性盒布局</h3>
+            <h3>如何使用bootstrap栅格系统？</h3>
             <p>分享人：王浩冉</p>
         </section>
         <section class="past" style="top: 3px; display: block;" hidden="" aria-hidden="true">
@@ -56,88 +56,77 @@
             <h3>1.背景介绍</h3>
         </section>
         <section class="stack present" style="top: 0px; display: block;" data-previous-indexv="1">
-            <h3>FLEX布局是什么？</h3>
+            <h3>bootstrap栅格系统</h3></section>
             <section class="past" style="top: 267px; display: block;" hidden="" aria-hidden="true">
-                <p>2009年，W3C 提出了一种新的方案----Flex 布局，可以简便、完整、响应式地实现各种页面布局。目前，它已经得到了所有浏览器的支持，这意味着，现在就能很安全地使用这项功能。</p>
-                <p>官方说法：Flex是Flexible Box的缩写，意为”弹性布局”，用来为盒状模型提供最大的灵活性。任何一个容器都可以指定为Flex布局。
-                    flex 就是一种布局方式</p>
-            </section><section><p>Flex的基本作用就是让布局变的更简单，比如“垂直居中”等，当然不止这个，要说清楚flex有什么作用首先要了解一些概念。
-                    采用Flex布局的元素，称为Flex容器（flex container），简称”容器”。它的所有子元素自动成为容器成员，称为Flex项目（flex item），简称”项目”。 </p>
+                <section><p>Bootstrap 是一个用于快速开发 Web 应用程序和网站的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的。</p>
+                <p>Bootstrap，来自 Twitter，是目前很受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JavaScript 的，它简洁灵活，使得 Web 开发更加快捷。</p></section>
+                    <section><p>[1] 它由Twitter的设计师MarkOtto和Jacob Thornton合作开发，是一个CSS/HTML框架。Bootstrap提供了优雅的HTML和CSS规范，它即是由动态CSS语言Less写成。
+                    Bootstrap一经推出后颇受欢迎，一直是GitHub上的热门开源项目，包括NASA的MSNBC（微软全国广播公司）的BreakingNews都使用了该项目。
+                    [2] 国内一些移动开发者较为熟悉的框架，如WeX5前端开源框架等，也是基于Bootstrap源码进行性能优化而来。</p></section>
             </section>
 
-        </section>
         <section class="future" style="top: 267px; display: block;" hidden="" aria-hidden="true">
             <h3>2.知识剖析</h3>
         </section>
         <section class="future" style="top: 267px; display: block;" hidden="" aria-hidden="true">
-            <p>采用 Flex 布局的元素，称为 Flex 容器（flex container），简称"容器"。它的所有子元素自动成为容器成员，称为 Flex 项目（flex item），简称"项目"。
+            <section><p>1、bootstrap内置了一套响应式、移动设备优先的流式栅格系统，随着屏幕设备或视口（viewport）尺寸的增加，系统会自动分为最多12列。
+                网格系统的实现原理非常简单，仅仅是通过定义容器大小，平分12份(也有平分成24份或32份，但12份是最常见的)，再调整内外边距，
+                最后结合媒体查询，就制作出了强大的响应式网格系统。Bootstrap框架中的网格系统就是将容器平分成12份。
+            </p></section>
+            <section>
+            <p>2、 小屏幕（平板，大于等于 768px）
+                @media (min-width: @screen-sm-min) { ... }
 
-                任何一个容器都可以指定成flex布局</p>
+                 中等屏幕（桌面显示器，大于等于 992px）
+                @media (min-width: @screen-md-min) { ... }
 
+                 大屏幕（大桌面显示器，大于等于 1200px）
+                @media (min-width: @screen-lg-min) { ... }
+            </p></section>
+            <section>
+            <p>1.行(.row)必须包含在容器（.container）中，以便为其赋予合适的对齐方式和内距(padding)。
+                2.在行(.row)中可以添加列(.column)，但列数之和不能超过平分的总列数，比如12。如：
+                3.具体内容应当放置在列容器（column）之内，而且只有列（column）才可以作为行容器(.row)
+                的直接子元素
+                4.类似 .row 和 .col-sm-4 这种预定义的类，可以用来快速创建栅格布局。
+            5.通过设置内距（padding）从而创建列与列之间的间距。然后通过为第一列和最后一列设置负值
+            的外距（margin）来抵消内距(padding)的影响</p></section>
         </section>
         <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="stack future">
             <section style="text-align: center; top: 330px; display: none;"><h3>3.常见问题</h3></section>
         </section>
         <section>
-            <p>flex-direction ：flex-direction 决定主轴的方向（即项目的排列方向）。它有4个可能的值 ： row（默认值）：主轴为水平方向，起点在容器的左端。row-reverse：主轴为水平方向，起点在容器的右端。 column：主轴为垂直方向，起点在容器的上沿。column-reverse：主轴为垂直方向，起点在容器的下沿。</p>
+            <p>1、12列如何划分的？</p>
+            <p>1、16列如何划分的？</p>
+            <p>1、24列如何划分的？</p>
         </section>
         <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="stack future">
             <section style="text-align: center; top: 330px; display: none;"><h3>4 解决方案</h3></section>
+
         </section>
+        <section><p>1、每个栅格栏左右间隙10px； 每个栅格60px； 列与列之间间隔20px； 可用部分940px；</p>
+            <p>每个栅格间隙10； 每个栅格40px；</p>
+            <p>左右各占5px； 每个栅格30px； 可用部分950px；</p></section>
         <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="stack future">
             <section style="text-align: center; top: 330px; display: none;"><h3>5.编码实战</h3>
                 <a href="../demo.html"><h3>demo</h3></a></section>
-        </section>
-        <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="stack future">
-            <section style="text-align: center; top: 330px; display: none;">
-                <li> justify-content 定义了项目在主轴上的对齐方式。它可能的值有5个：</li>
-                <li>flex-start：项目向左对齐，并每个项目之间有相同的间距</li>
-                <li>flex-end：项目向右对齐，原理与flex-start一样，只不过对齐的方向相对</li>
-                <li>center：让项目水平居中</li>
-                <li>space-between：让项目左右对齐，中间水平居中</li>
-                <li>space-around：原理跟center很像，只不过这个左右对齐以后两边的间距比较小</li>
-            </section>     <section>
-            <li> align-items属性定义项目在交叉轴上如何对齐。</li>
-            <li> flex-start：项目与顶端对齐</li>
-            <li>flex-end：项目与底部对齐</li>
-            <li> center：项目垂直居中</li>
-            <li>baseline:项目的第一行文字的基线对齐</li>
-            <li>stretch：如果项目未设置高度或设为auto，将占满整个容器的高度。</li>
-        </section>
-            <section>
 
-                <li>     align-content属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。</li>
-                <li>         　flex-start：与交叉轴的起点对齐。     </li>
-                <li>       　flex-end：与交叉轴的终点对齐。      </li>
-                <li>    center：与交叉轴的中点对齐。   </li>
-                <li>space-between：与交叉轴两端对齐，轴线之间的间隔平均分布。</li>
-                <li>space-around：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。</li>
-                <li>stretch（默认值）：轴线占满整个交叉轴。</li>
+        </section>
+        <section><p>div class="row"></p>
+            <p>div class="col-md-2 col-md-offset-1 col-xs-12 col-sm-12 col-lg-2 col-lg-offset-1 logo-alibaba"</p>
+            <p>div class="col-md-2  col-xs-12 col-sm-12 col-lg-2"</p>
+            <p>div class="col-md-2  col-xs-12 col-sm-12 col-lg-2"</p>
+            <p>div class="col-md-2  col-xs-12 col-sm-12 col-lg-2"</p>
+            <p>div class="col-md-2  col-xs-12 col-sm-12 col-lg-2"</p>
             </section>
 
-
-        </section>
-        <section style="text-align: center; top: 330px; display: none;"><h3>圣杯布局</h3>
-            <p>经典三列布局，也叫做圣杯布局【Holy Grail of Layouts】是Kevin Cornell在2006年提出的一个布局模型概念，在国内最早是由淘宝UED的工程师传播开来，在中国也有叫法是双飞翼布局，它的布局要求有几点：
-                1、三列布局，中间宽度自适应，两边定宽；
-                2、中间栏要在浏览器中优先展示渲染；
-                3、允许任意列的高度最高；
-                4、要求只用一个额外的DIV标签；
-                5、要求用最简单的CSS、最少的HACK语句；</p>
-        </section>
-        <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="stack future">
-            <section style="text-align: center; top: 330px; display: none;"><h3>固定的底栏</h3>
-                <p>align-self属性允许单个项目有与其他项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch。
-                    有时，页面内容太少，无法占满一屏的高度，底栏就会抬高到页面的中间。这时可以采用Flex布局，让底栏总是出现在页面的底部。</p>
-            </section>
-        </section>
-
-
-
-        <section hidden="" aria-hidden="true" class="stack future" style="top: 330px; display: none;">
+            <section hidden="" aria-hidden="true" class="stack future" style="top: 330px; display: none;">
             <section style="top: 330px; display: none;">
                 <h3 style="text-align: center">6.扩展思考</h3>
-                <section>https://flexboxfroggy.com/</section>
+                <section><p>css 阶段能做组件化吗？</p>
+                    <p>1 不能，组件化是HTML、css、JavaScript三方共同作用</p>
+                    <p>2 目前只能叫做样式库，自己的整理和总结</p>
+                </section>
             </section>
 
         </section>
@@ -152,11 +141,11 @@
         </section>
         <section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="future">
             <h3>7.参考文献</h3>
-            <p>参考：<a href="http://www.ruanyifeng.com/blog/2015/07/flex-examples.html">Flex 布局教程：实例篇</a></p>
+            <p>参考：<a href="http://www.runoob.com/bootstrap/bootstrap-grid-system.html">菜鸟教程：Bootstrap 网格系统</a></p>
         </section>
         <section hidden="" aria-hidden="true" class="future" style="top: 330px; display: none;">
             <h3>8 更多讨论</h3>
-            <section></section>
+            <section><p>1.bootstrap有哪些常用组件？</p><p>2.bootstrap的栅格系统为什么最多12列，采用12列有什么好处吗？</p></section>
         </section>
         <!--<section style="text-align: left; top: 330px; display: none;" hidden="" aria-hidden="true" class="future">-->
         <!--<p>2333333</p>-->
