@@ -1,0 +1,60 @@
+.firm{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 2px;
+  border: 1px solid #e6e6e6;
+}
+.murphy{
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+.menu{
+  border: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: center;
+}
+.correct{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ff640c;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.murphy:hover .correct{
+  background-color: #ff640c;
+}
+ul, ol {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+.error{
+  color: #29b078;
+}
+.murphy:hover .error{
+  color: #ff640c;
+}
+.box-love{
+  margin-bottom: 30px;
+}
+.tactic{
+  border: 1px solid #e6e6e6;
+}
+.stand{
+  float: left;
+  margin-left: 5px;
+}
+@media (max-width: 600px) {
+  .stand {
+    float: none;
+    width: 98%;
+    height: 100%;
+  }
+}
+.company{
+  padding: 40px;
+}
+.like p{
+  padding: 20px;
+}

@@ -1,3 +1,113 @@
+.top {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #29b078; }
+  .top .tencent {
+    margin-right: 5px; }
 
+.login {
+  display: none; }
+
+@media (max-width: 750px) {
+  .login {
+    display: block;
+    white-space: nowrap;
+    float: right;
+    font-size: 1.2rem; } }
+.hide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+@media (max-width: 750px) {
+  .hide {
+    display: none; } }
+.frame {
+  background-color: #29b078; }
+
+.box-look {
+  height: 58px; }
+  .box-look .logo {
+    float: left;
+    padding-top: 5px; }
+
+.home {
+  float: right;
+  color: #fff;
+  padding: 15px 1px 15px 1px; }
+
+.home a {
+  padding: 15px 15px 15px 15px; }
+
+.post:hover {
+  border-bottom: 2px solid #fff; }
+
+.flexible {
+  border: 1px solid #fff;
+  padding: 2px 0; }
+
+.img-jinshu {
+  padding: 5px 0; }
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #29b078;
+  transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  float: right; }
+
+ul.topnav li {
+  float: left; }
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+  border-bottom: 2px solid #29b078;
+  font-size: 0.8rem; }
+
+ul.topnav li a:hover:not(.active) {
+  border-bottom: 2px solid #fff; }
+
+ul.topnav li.right {
+  float: right; }
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none; } }
+@media screen and (min-width: 600px) {
+  .flexible {
+    opacity: 0; } }
+@media screen and (max-width: 600px) {
+  ul.topnav {
+    width: 100%;
+    height: 0; }
+
+  #sidemenu:checked ~ .topnav {
+    height: 223px;
+    border-top: 1px solid #e7e7e7; } }
+#sidemenu {
+  display: none; }
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding-top: 8px; }
+
+@media screen and (max-width: 600px) {
+  .home {
+    display: block; } }
+@media screen and (min-width: 600px) {
+  .button {
+    display: none; } }
 
 /*# sourceMappingURL=inquire.css.map */
