@@ -1,43 +1,62 @@
+$one: #fff;
+$two: #29b078;
 body{
   margin: 0;
   background-color: #fafafa;
 }
 .top{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-top: 6px;
   padding-bottom: 6px;
-  color: #29b078;
+  color: $two;
   padding-left: 15px;
   padding-right: 15px;
   .tencent{
     margin-right: 5px;
   }
 }
+.login{
+  display: none;
+}
+@media (max-width: 750px) {
+  .login {
+    display: block;
+    white-space: nowrap;
+    float: right;
+    font-size: 1.2rem;
+  }
+}
+.hide{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 750px) {
+  .hide {
+    display: none;
+  }
+}
 .container-box{
-  background-color: #29b078;
-  padding-left: 15px;
-  padding-right: 15px;
+  background-color: $two;
   height: 58px;
   .logo{
     float: left;
     padding-top: 5px;
+    padding-left: 15px;
   }
 }
 .home{
   float: right;
-  color:  #fff;
+  color:  $one;
   padding: 15px 1px 15px 1px;
 }
 .home a{
   padding: 15px 15px 15px 15px;
 }
 .post:hover{
-  border-bottom:2px solid #fff;
+  border-bottom:2px solid $one;
 }
 .flexible {
-  border: 1px solid #fff;
+  border: 1px solid $one;
   padding: 2px 0; }
 
 .img-jinshu {
@@ -48,7 +67,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #29b078;
+  background-color: $two;
   transition: height 0.5s;
   -moz-transition: height 0.5s;
   -webkit-transition: height 0.5s;
@@ -69,7 +88,7 @@ ul.topnav li a {
   font-size: 0.8rem; }
 
 ul.topnav li a:hover:not(.active) {
-  border-bottom: 2px solid #fff; }
+  border-bottom: 2px solid $one; }
 
 ul.topnav li.right {
   float: right; }
@@ -85,13 +104,11 @@ ul.topnav li.right {
   ul.topnav {
     width: 100%;
     height: 0;
-    margin: 0 -5vw; }
+  }
 
   #sidemenu:checked ~ .topnav {
     height: 223px;
     border-top: 1px solid #e7e7e7;
-    padding-left: 11vw;
-    padding-right: 5.5vw;
   }
 }
 #sidemenu {
@@ -102,6 +119,7 @@ ul.topnav li.right {
   display: inline-block;
   float: right;
   padding-top: 8px;
+  padding-right: 15px;
 }
 @media screen and (max-width: 600px) {
   .home{
@@ -259,10 +277,10 @@ label {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
 }
 @media (min-width: 800px) {
   .container {
@@ -298,7 +316,7 @@ label {
   border-left: dashed thin #dedede;
   line-height: 30px;
   .quorum{
-    color: #29b078;
+    color: $two;
   }
   .study{
     color: #999;
@@ -338,9 +356,9 @@ label {
   border: 2px solid #f4f3f3;
   border-radius: 50%;
   text-align: center;
-  color: #29b078;
+  color: $two;
   font-size: 1.2rem;
-  background-color: #fff;
+  background-color: $one;
   .enough {
     line-height: 2rem;
   }
@@ -373,28 +391,28 @@ label {
 }
 .horse {
   text-align: center;
-  background-color: #fff;
+  background-color: $one;
   border: 1px solid rgba(0,0,0,.125);
   margin-top: 15px;
   border-radius: 5px;
   box-shadow: 3px 3px 3px #afafaf;
-}
-.ask {
-  width: 10rem;
-  height: 10rem;
-  border-radius: 50%;
-  margin-bottom: 20px;
-  margin-top: 15px;
-}
-.name {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-.robot {
-  color: #afafaf;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  .ask {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+  }
+  .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .robot {
+    color: #afafaf;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
 }
 @media (min-width: 992px) {
   .middle-sized {
@@ -413,20 +431,20 @@ label {
   display: flex;
   justify-content: center;
   margin-top: 35px;
-}
-.support {
-  width: 20px;
-  height: 20px;
-  background: #fff;
-  border-radius: 50%;
-  margin-right: 5px;
-  border: 1px solid rgba(0,0,0,.125);
+  .support {
+    width: 20px;
+    height: 20px;
+    background: $one;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 1px solid rgba(0,0,0,.125);
+  }
 }
 .support:hover{
   background-color: #29b078;
 }
 .ship {
-  background: #fff;
+  background: $one;
   text-align: center;
   height: 192px;
   margin-top: 3vw;
@@ -477,17 +495,17 @@ label {
   }
 }
 .software:hover{
-  border-bottom:1px solid #29b078;
+  border-bottom:1px solid $two;
 }
 .script {
-  background-color: #29b078;
+  background-color: $two;
   padding-top: 25px;
-  color: #fff;
+  color: $one;
   padding-bottom: 35px;
   margin-top: 15px;
 }
 .small{
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 @media (min-width: 992px) {
   .col-md-4 {
@@ -512,8 +530,14 @@ label {
 .setout {
   background-color: #29b078;
   border-top: 0.1rem solid #32c068;
-  color: #fff;
+  color: $one;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
+}
+.our:hover{
+  border-bottom:1px solid $one;
+}
+.grass:hover{
+  border-bottom:1px solid $one;
 }
