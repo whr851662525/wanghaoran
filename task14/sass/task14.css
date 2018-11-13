@@ -249,8 +249,7 @@ ul {
   display: none; }
 
 .father {
-  width: 100%;
-  height: 30vw; }
+  width: 100%; }
 
 label {
   cursor: pointer;
@@ -320,8 +319,8 @@ label {
   margin-top: 3vw; }
 
 .figure {
-  min-height: 30px;
-  min-width: 30px;
+  height: 30px;
+  width: 30px;
   border: 2px solid #f4f3f3;
   border-radius: 50%;
   text-align: center;
@@ -329,7 +328,7 @@ label {
   font-size: 1.2rem;
   background-color: #fff; }
   .figure .enough {
-    line-height: 2rem; }
+    line-height: 30px; }
 
 .human {
   color: #afafaf; }
@@ -339,9 +338,13 @@ label {
     width: 45%;
     display: inline-flex;
     margin-right: 35px; } }
+@media (max-width: 862px) {
+  .know {
+    margin-right: 20px;
+    margin-left: 20px; } }
 @media (min-width: 1200px) {
   .know {
-    width: 23%;
+    width: 22%;
     display: inline-flex;
     margin-right: 20px; } }
 .row {
@@ -370,9 +373,14 @@ label {
     margin-bottom: 20px; }
   .horse .robot {
     color: #afafaf;
-    margin-left: 3rem;
-    margin-right: 3rem; }
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify; }
 
+@media (max-width: 862px) {
+  .middle-sized {
+    margin-left: 20px;
+    margin-right: 20px; } }
 @media (min-width: 992px) {
   .middle-sized {
     width: 45%;
@@ -380,8 +388,9 @@ label {
     margin-right: 35px; } }
 @media (min-width: 1200px) {
   .large-scale {
-    width: 20%;
-    margin-right: 55px; } }
+    width: 19%;
+    margin-right: 27px;
+    margin-left: 28px; } }
 .expert {
   display: flex;
   justify-content: center;
@@ -394,6 +403,9 @@ label {
     margin-right: 5px;
     border: 1px solid rgba(0, 0, 0, 0.125); }
 
+.sie {
+  padding: 0 20px 0 50px; }
+
 .support:hover {
   background-color: #29b078; }
 
@@ -402,13 +414,17 @@ label {
   text-align: center;
   height: 192px;
   margin-top: 3vw;
-  line-height: 185px; }
+  line-height: 250px; }
 
+@media (max-width: 862px) {
+  .middle {
+    margin-left: 20px;
+    margin-right: 20px; } }
 @media (min-width: 992px) {
   .middle {
     width: 45%;
     float: left;
-    margin-right: 35px; } }
+    margin-right: 6px; } }
 @media (min-width: 1200px) {
   .large {
     width: 17%; } }
@@ -450,8 +466,13 @@ label {
   padding-bottom: 35px;
   margin-top: 15px; }
 
+@media (max-width: 862px) {
+  .script {
+    padding-left: 20px;
+    padding-right: 20px; } }
 .small {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  margin-left: 20px; }
 
 @media (min-width: 992px) {
   .col-md-4 {
@@ -465,7 +486,8 @@ label {
   .col-md-3 {
     width: 25%; } }
 .minitype {
-  display: inline-block; }
+  display: inline-block;
+  margin-left: 20px; }
 
 .setout {
   background-color: #29b078;

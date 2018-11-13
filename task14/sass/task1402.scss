@@ -13,6 +13,16 @@ body{
   margin-right: -15px;
   margin-left: -15px;
 }
+@media (min-width: 320px) {
+  .container {
+    width: 250px;
+  }
+}
+@media (min-width: 600px) {
+  .container {
+    width: 550px;
+  }
+}
 @media (min-width: 800px) {
   .container {
     width: 750px;
@@ -117,3 +127,19 @@ body{
 .grass:hover{
   border-bottom:1px solid $one;
 }
+@media (max-width: 835px) {
+  .box-look{
+    margin: 0 20px;
+  }
+}
+//@media (max-width: 835px) {
+//  .hide{
+//    margin: 0 20px;
+//  }
+//}
+//@media (max-width: 835px) {
+//  .hand{
+//    margin: 0 20px;
+//  }
+//}
+

@@ -14,6 +14,16 @@ body{
   margin-right: -15px;
   margin-left: -15px;
 }
+@media (min-width: 320px) {
+  .container {
+    width: 250px;
+  }
+}
+@media (min-width: 600px) {
+  .container {
+    width: 550px;
+  }
+}
 @media (min-width: 800px) {
   .container {
     width: 750px;
