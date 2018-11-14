@@ -484,7 +484,7 @@ label {
     float: left; } }
 @media (min-width: 992px) {
   .col-md-3 {
-    width: 25%; } }
+    width: 19%; } }
 .minitype {
   display: inline-block;
   margin-left: 20px; }
