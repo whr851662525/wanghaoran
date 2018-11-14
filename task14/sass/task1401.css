@@ -12,12 +12,6 @@ body {
   margin-right: -15px;
   margin-left: -15px; }
 
-@media (min-width: 320px) {
-  .container {
-    width: 250px; } }
-@media (min-width: 600px) {
-  .container {
-    width: 550px; } }
 @media (min-width: 800px) {
   .container {
     width: 750px; } }
@@ -58,15 +52,15 @@ body {
   font-weight: bold; }
 
 .col-xs-12 {
-  width: 100%; }
+  width: 94.5%; }
 
 @media (min-width: 992px) {
   .col-md-6 {
-    width: 49%;
+    width: 47%;
     display: inline-block; } }
 @media (min-width: 1200px) {
   .col-lg-4 {
-    width: 33%;
+    width: 31%;
     display: inline-block; } }
 .script {
   background-color: #29b078;
@@ -88,7 +82,7 @@ body {
     float: left; } }
 @media (min-width: 992px) {
   .col-md-3 {
-    width: 25%; } }
+    width: 21%; } }
 .minitype {
   display: inline-block; }
 
@@ -105,5 +99,9 @@ body {
 
 .grass:hover {
   border-bottom: 1px solid #fff; }
+
+.aura {
+  padding-right: 8px;
+  padding-left: 8px; }
 
 /*# sourceMappingURL=task1401.css.map */

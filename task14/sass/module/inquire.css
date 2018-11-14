@@ -1,5 +1,4 @@
 .top {
-  padding: 6px 0;
   color: #29b078; }
   .top .tencent {
     margin-right: 5px; }
@@ -28,7 +27,8 @@
   height: 58px; }
   .box-look .logo {
     float: left;
-    padding-top: 5px; }
+    padding-top: 5px;
+    padding-left: 8px; }
 
 .home {
   float: right;
@@ -100,7 +100,8 @@ ul.topnav li.right {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding-top: 8px; }
+  padding-top: 8px;
+  padding-right: 8px; }
 
 @media screen and (max-width: 600px) {
   .home {

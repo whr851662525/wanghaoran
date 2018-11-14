@@ -1,7 +1,6 @@
 $one: #fff;
 $two: #29b078;
 .top{
-  padding: 6px 0;
   color: $two;
   .tencent{
     margin-right: 5px;
@@ -36,6 +35,7 @@ $two: #29b078;
   .logo{
     float: left;
     padding-top: 5px;
+    padding-left: 8px;
   }
 }
 .home{
@@ -113,6 +113,7 @@ ul.topnav li.right {
   display: inline-block;
   float: right;
   padding-top: 8px;
+  padding-right: 8px;
 }
 @media screen and (max-width: 600px) {
   .home{

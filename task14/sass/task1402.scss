@@ -9,19 +9,15 @@ body{
   margin-right: auto;
   margin-left: auto;
 }
+.nerve{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .row {
   margin-right: -15px;
   margin-left: -15px;
-}
-@media (min-width: 320px) {
-  .container {
-    width: 250px;
-  }
-}
-@media (min-width: 600px) {
-  .container {
-    width: 550px;
-  }
 }
 @media (min-width: 800px) {
   .container {
@@ -61,21 +57,21 @@ body{
   }
 }
 .col-xs-12{
-  width: 100%;
+  width: 94.5%;
 }
 .box-six {
   margin-bottom: 15px;
 }
 @media (min-width: 992px) {
   .col-md-6 {
-    width: 48%;
+    width: 46%;
     float: left;
     margin-right: 10px;
   }
 }
 @media (min-width: 1200px) {
   .col-lg-3 {
-    width: 25%;
+    width: 22%;
   }
 }
 @media (min-width: 1200px) {
@@ -107,7 +103,7 @@ body{
 }
 @media (min-width: 992px) {
   .col-md-3 {
-    width: 25%;
+    width: 21%;
   }
 }
 .minitype{
@@ -127,19 +123,7 @@ body{
 .grass:hover{
   border-bottom:1px solid $one;
 }
-@media (max-width: 835px) {
-  .box-look{
-    margin: 0 20px;
-  }
+.aura{
+  padding-right: 8px;
+  padding-left: 8px;
 }
-//@media (max-width: 835px) {
-//  .hide{
-//    margin: 0 20px;
-//  }
-//}
-//@media (max-width: 835px) {
-//  .hand{
-//    margin: 0 20px;
-//  }
-//}
-
