@@ -25,7 +25,8 @@ body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   border-bottom: thin solid #d0d6d9;
-  font-size: 1.1rem; }
+  font-size: 1.1rem;
+  margin: 0 8px; }
   .mouse .career {
     color: #29b078; }
 
@@ -49,7 +50,8 @@ body {
   padding-bottom: 1.5rem;
   border-bottom: thin solid #d0d6d9;
   font-size: 1.2rem;
-  font-weight: bold; }
+  font-weight: bold;
+  margin: 0 8px; }
 
 .col-xs-12 {
   width: 94.5%; }
