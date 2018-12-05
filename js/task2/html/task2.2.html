@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简单版</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/task22.css">
+
+</head>
+<body>
+<main>
+    <header>
+        <div class="arrows"><img src="../img/左箭头.png" height="41" width="25"/></div>
+        <div class="parameter">参数设置</div>
+        <div class="ask"><img src="../img/问号.png" height="45" width="45"/></div>
+    </header>
+<div class="player">玩家配比</div>
+<div class="people">
+    <div class="ghost">幽灵<span id="number">0</span>人</div>
+    <div class="ghost">水民<span id="populace">0</span>人</div>
+</div>
+<div class="input field">
+    <div class="text">
+        <div class="word group">水民词组：</div><input class="style" onkeyup="value=value.replace(/[\d]/g,'') " onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[\d]/g,''))" maxlength="10" placeholder="限输入10个字以内">
+    </div>
+    <div class="text">
+        <div class="word group">幽灵词组：</div><input class="style" onkeyup="value=value.replace(/[\d]/g,'') " onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[\d]/g,''))" maxlength="10" placeholder="限输入10个字以内">
+    </div>
+</div>
+<div class="input-box">
+    <div class="game">
+        <span class="please">请输入玩家数量</span>
+        <input class="manner" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="2" placeholder="">
+        <span class="orange">玩家数量为4-18人</span>
+    </div>
+    <div class="bottom-box">
+        <input type="button" class="img7" onclick="btLeft()">
+        <input type="range" class="img9" id="rangeNumber" oninput="change()" name="change" value="4" min="4" max="18" step="1" placeholder="">
+        <input type="button" class="img8" onclick="btRight()">
+    </div>
+</div>
+<div class="base">去发牌</div>
+</main>
+<script src="../js/task2.2.js"></script>
+</body>
+</html>

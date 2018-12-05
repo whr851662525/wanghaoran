@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  background-color: #fafafa; }
+
+main {
+  min-width: 320px;
+  max-width: 780px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #f0f0f0; }
+
+header {
+  background-color: #29bde0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
+  font-size: 1.8rem;
+  padding-top: 7px; }
+
+.player {
+  margin: 5px 10px 5px 10px;
+  background-color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 7px; }
+
+.people {
+  height: 40vh;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  color: #a1a1a1;
+  border-radius: 3px; }
+
+.ghost {
+  margin-top: 5px; }
+
+.field {
+  background-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 10vh;
+  color: #a1a1a1;
+  padding: 5px 30px 5px 30px;
+  border-radius: 3px;
+  margin-bottom: 10px; }
+
+.text {
+  margin-top: 5px;
+  display: -webkit-box;
+  border-bottom: 1px solid #a1a1a1; }
+
+.style {
+  border: none;
+  outline: none; }
+
+.manner {
+  width: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: #f4f5f5;
+  border: none;
+  outline: none;
+  color: #fab344; }
+
+.input-box {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 15px 30px 15px 30px;
+  background-color: #fff;
+  border-radius: 3px; }
+
+.please {
+  font-weight: bolder; }
+
+.game {
+  display: flex;
+  justify-content: center; }
+
+.orange {
+  font-size: 0.8rem;
+  color: #fab344; }
+
+.bottom-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px; }
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 90%;
+  height: 5px;
+  background-color: #fab344;
+  outline: none;
+  cursor: pointer; }
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 2rem;
+  height: 1.2rem;
+  background: url(../img/bar1.png) no-repeat 0 0/cover;
+  border: none;
+  cursor: pointer; }
+
+.img7 {
+  -webkit-appearance: none;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: url(../img/bar3.png) no-repeat 0 0/cover;
+  outline: none;
+  border: none; }
+
+.img8 {
+  -webkit-appearance: none;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: url(../img/bar2.png) no-repeat 0 0/cover;
+  outline: none;
+  border: none; }
+
+.base {
+  margin: 10px 10px 10px 10px;
+  font-size: 1.5rem;
+  text-align: -webkit-center;
+  background-color: #fab344;
+  color: #fff;
+  padding: 10px 0 10px 0;
+  border-radius: 3px; }
+
+/*# sourceMappingURL=task22.css.map */
