@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+}
+header{
+  background-color: #29bde0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
+  font-size: 1.8rem;
+  padding-top: 7px;
+}
+
+.player{
+  margin: 5px 10px 5px 10px;
+  background-color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.people{
+  height: 40vh;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  color: #a1a1a1;
+  border-radius: 3px;
+}
+.ghost{
+  margin-top: 5px;
+}

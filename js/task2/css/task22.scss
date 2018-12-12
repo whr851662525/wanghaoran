@@ -20,6 +20,7 @@ header{
   font-size: 1.8rem;
   padding-top: 7px;
 }
+
 .player{
   margin: 5px 10px 5px 10px;
   background-color: #fff;
@@ -59,22 +60,25 @@ header{
   border-bottom: 1px solid #a1a1a1;
 }
 .style{
+  width: 190px;
   border: none;
   outline: none;
 }
 .manner{
-  width: 20px;
+  width: 25px;
   margin-left: 8px;
   margin-right: 8px;
   background-color: #f4f5f5;
   border: none;
   outline: none;
   color: #fab344;
+  font-weight: bolder;
+  text-align: center;
 }
 .input-box{
   margin-left: 10px;
   margin-right: 10px;
-  padding: 15px 30px 15px 30px;
+  padding: 15px 10px 15px 10px;
   background-color: #fff;
   border-radius: 3px;
 }
@@ -118,6 +122,7 @@ input[type=range]::-webkit-slider-thumb {
   background: url(../img/bar3.png) no-repeat 0 0/cover;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 .img8 {
   -webkit-appearance: none;
@@ -126,6 +131,7 @@ input[type=range]::-webkit-slider-thumb {
   background: url(../img/bar2.png) no-repeat 0 0/cover;
   outline: none;
   border: none;
+  cursor: pointer;
 }
 .base{
   margin: 10px 10px 10px 10px;
