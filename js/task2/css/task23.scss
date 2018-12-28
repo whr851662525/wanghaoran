@@ -36,7 +36,6 @@ header{
   margin-left: 50px;
   margin-right: 50px;
   height: 60vh;
-  text-align: center;
   background-color: #ffedc5;
   border: 5px solid #fff;
 }
@@ -51,4 +50,61 @@ header{
   color: #fff;
   font-size: 1.6rem;
   padding: 8px 0 8px 0;
+  cursor:pointer
+}
+.role{
+  font-size: 1.5rem;
+  color: #29bde0;
+}
+#hidden{
+  margin-top: 40px;
+  display: none;
+}
+#appear{
+
+}
+.id{
+  width: 80px;
+  height: 40px;
+  margin-top: 40px;
+  color: #29bde0;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #ffedc5;
+}
+#box{
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #fbb435;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.check{
+  display: none;
+  margin: 20px 50px 20px 50px;
+  text-align: center;
+  background-color: #fbb435;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 8px 0 8px 0;
+  cursor:pointer
+}
+#examine{
+  width: 25px;
+  height: 25px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #fbb435;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.girl{
+  position: relative;
+  top: 30px;
 }

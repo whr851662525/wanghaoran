@@ -43,6 +43,15 @@ header {
 .ghost {
   margin-top: 5px; }
 
+.box-one {
+  width: 20px;
+  border: none;
+  text-align: center;
+  color: #a1a1a1;
+  outline: none;
+  font-weight: bolder;
+  background-color: #fff; }
+
 .field {
   background-color: #fff;
   margin-left: 10px;
@@ -134,11 +143,19 @@ input[type=range]::-webkit-slider-thumb {
 
 .base {
   margin: 10px 10px 10px 10px;
-  font-size: 1.5rem;
   text-align: -webkit-center;
   background-color: #fab344;
-  color: #fff;
   padding: 10px 0 10px 0;
-  border-radius: 3px; }
+  border-radius: 3px;
+  cursor: pointer; }
+
+#start {
+  width: 100%;
+  border: none;
+  background-color: #fab344;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+  outline: none; }
 
 /*# sourceMappingURL=task22.css.map */

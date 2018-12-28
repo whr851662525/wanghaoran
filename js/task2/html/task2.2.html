@@ -32,7 +32,8 @@
 <div class="input-box">
     <div class="game">
         <span class="please">请输入玩家数量</span>
-        <input class="manner" id="demo1" type="text" name="amount" value="" onblur="textbox(this)" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="2" placeholder="">
+       <!--onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')"-->
+        <input class="manner" id="demo1" type="text" name="amount"   onblur="ghost()" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="2" placeholder="">
         <span class="orange">玩家数量为4-18人</span>
     </div>
     <div class="bottom-box">
@@ -41,7 +42,7 @@
         <input type="button" class="img8" id="demo4" value="" onclick="demo4()">
     </div>
 </div>
-<div class="base">去发牌</div>
+<div class="base"><button id="start" onclick="load()">去发牌</button></div>
 </main>
 <script src="../js/task2.2.js"></script>
 </body>
