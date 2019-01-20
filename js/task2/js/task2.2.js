@@ -89,12 +89,13 @@ function start() {
     }
     return newArr;
 }
+console.log(start());
 function load(){
     if ( ghost()===false){
     } else {
         start();
         console.log(start());
-        sessionStorage.setItem("typer",start());
+        sessionStorage.setItem("typer",JSON.stringify(start()));
         window.open( "../html/task23.html","_self");
     }
 }

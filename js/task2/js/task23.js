@@ -1,38 +1,44 @@
-function click() {
-   var appear = document.getElementById("appear");
-   var hidden = document.getElementById("hidden");
-   var arise = document.getElementById("arise");
-   var hide = document.getElementById("hide");
-    arise.onclick = function () {
-       appear.style.display = "none";
-       hidden.style.display = "block";
-        arise.style.display = "none";
-        hide.style.display = "block";
-     };
-   hide.onclick = function () {
-       appear.style.display = "block";
-       hidden.style.display = "none";
-       arise.style.display = "block";
-       hide.style.display = "none";
-   }
-}console.log(click());
-console.log(sessionStorage.getItem("typer"));
-
-
-// window.onload = function () {
-//     /* window意思是窗口  onload是加载  意思是页面加载完毕后，才执行里面的js ，所以可以放在顶端*/
-//     var img = document.getElementById("img");
-//     /*获取图片img="id"给变量 img*/
-//     var btn_show = document.getElementById("btn_show");
-//     /*获取显示按钮id="btn_show"给变量 btn_show*/
-//     var btn_hidden = document.getElementById("btn_hidden");
-//     /*获取隐藏按钮id=“btn_show”给变量 btn_hidden */
-//
-//     btn_show.onclick = function () {
-//         img.style.display = "block";
-//     }
-//     /*点击显示按钮时，img的样式style的display属性赋值为“block”，下同理*/
-//     btn_hidden.onclick = function () {
-//         img.style.display = "none";
-//     }
-// }
+let arr  = JSON.parse(sessionStorage.getItem("typer"));
+console.log(arr);
+console.log( $('#arise'));
+//jquery方法 ，ready函数
+function test() {
+    $('#hidden').hide();
+    $('#appear').show();
+    $('#circle').html(1);
+    $('#arise').html("点击查看1号身份");
+}
+//函数自执行
+ test();
+//开始点击
+//es6 模板字符串
+//数组的下标
+//arr[circle / 2 -1] = 点击查看 身份
+var circle  = 1;
+$('.base').click(function () {
+    var allNum = arr.length;
+    console.log('总人数' + allNum);
+    circle++;//点一次加一次
+    console.log(`circle` + circle);
+    if (circle === 2 * allNum + 1) { //再继续点则进入下一个页面
+        sessionStorage.setItem("arr",JSON.stringify(arr));
+        window.open('../html/check.html', '_self');
+    }
+    else if (circle <= 2 * allNum) { //查看过程中
+        var thisNum = Math.ceil(circle / 2); //查看当前身份数
+        $('#circle').text(thisNum);
+        if (circle % 2 === 1) {//按钮内容
+            $('.base').text(`查看${thisNum}号身份`);
+        }
+        else {
+            $('.base').text(`隐藏并传递给${thisNum}号`);
+        }
+        $('.role').text(arr[circle / 2 - 1]);
+        $('#hidden').toggle();
+        $('#appear').toggle();
+    }
+    if (circle === 2 * allNum) {
+        // 点击到头，按钮显示进入法官页面
+        $('.base').text(`法官查看`);
+    }
+});

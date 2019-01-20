@@ -19,7 +19,7 @@ header{
 .middle{
   text-align: -webkit-center;
 }
-#figure{
+#circle{
   position: relative;
   top: 30px;
   width: 50px;
@@ -38,6 +38,7 @@ header{
   height: 60vh;
   background-color: #ffedc5;
   border: 5px solid #fff;
+  border-radius: 5px;
 }
 .overturn{
   position: relative;
@@ -45,30 +46,28 @@ header{
 }
 .base{
   margin: 20px 50px 20px 50px;
+  height: 50px;
+  line-height: 45px;
   text-align: center;
   background-color: #fbb435;
   color: #fff;
   font-size: 1.6rem;
-  padding: 8px 0 8px 0;
-  cursor:pointer
+  border-radius: 5px;
 }
 .role{
-  font-size: 1.5rem;
   color: #29bde0;
 }
 #hidden{
   margin-top: 40px;
   display: none;
 }
-#appear{
-
-}
 .id{
-  width: 80px;
-  height: 40px;
+  width: 160px;
+  height: 20px;
   margin-top: 40px;
   color: #29bde0;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
   border: none;
   cursor: pointer;
   outline: none;
@@ -83,16 +82,6 @@ header{
   background-color: #fbb435;
   color: #fff;
   font-size: 1.6rem;
-}
-.check{
-  display: none;
-  margin: 20px 50px 20px 50px;
-  text-align: center;
-  background-color: #fbb435;
-  color: #fff;
-  font-size: 1.6rem;
-  padding: 8px 0 8px 0;
-  cursor:pointer
 }
 #examine{
   width: 25px;
