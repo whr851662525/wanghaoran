@@ -1,3 +1,2 @@
-$('.one-day').append(`
-
-`);
+let arr  = JSON.parse(sessionStorage.getItem("typer"));
+console.log(arr);

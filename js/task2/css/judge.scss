@@ -49,14 +49,19 @@ header{
   border: 1px solid #c9c9c9;
 }
 .three{
-  width: 0;
+  bottom: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
   height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 20px solid #fff;
+  width: 0;
   position: absolute;
-  left: 444px;
-  top: 113px;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-bottom-color: #fafafa;
+  border-width: 30px;
+  margin-left: -30px;
+  top: 78px;
 }
 .speak {
   margin: 8px 20px 8px 40px;
