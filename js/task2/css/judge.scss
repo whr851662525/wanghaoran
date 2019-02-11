@@ -96,6 +96,7 @@ header{
     position: relative;
     left: 70px;
     bottom: 18px;
+    cursor:pointer;
   }
 }
 .bottom{
@@ -118,5 +119,21 @@ header{
     border-radius: 10px;
     line-height: 47px;
     color: #fff;
+    border:none;
+    outline: none;
+    cursor:pointer;
+  }
+  .law{
+    width: 40%;
+    height: 48px;
+    background: #fbb435;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 47px;
+    color: #fff;
+    border:none;
+    outline: none;
+    cursor:pointer;
   }
 }

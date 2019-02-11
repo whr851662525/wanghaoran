@@ -1,33 +1,16 @@
-$('#btn').click(function () {
-    var allNum = data.length; //总人数
-    console.log(`总人数` + allNum);
-    circle++; //点一下加一下
-    console.log(`circle` + circle);
 
-    if (circle === 2 * allNum + 1) { //再继续点则进入下一个页面
-        window.open('judge.html', '_self');
-    }
+$('.div1').click(function(event) {
+    var event=event||e;
+    console.log(event.currentTarget.id);  //获取id属性值
+    console.log(event.currentTarget.dataset.name);  //获取自定义data-属性值
 
-    else if (circle <= 2 * allNum) { //查看过程中
-        var thisNum = Math.ceil(circle / 2); //查看当前身份数
-        $('.circle').text(thisNum);
+    //获取div里的值  2种方法
+    console.log($(this).html());
+    console.log($(this).text());
+    //获取自定义属性的属性值
+    console.log($(this).attr("haha"));
 
-        if (circle % 2 === 1) {//按钮内容
-            $('.btn').text(`查看${thisNum}号身份`);
-        }
-
-
-        else {
-            $('.btn').text(`隐藏并传递给${thisNum}号`);
-        }
-        $('.show-role').text(data[circle / 2 - 1]);
-        $('.card-info').toggle();
-        $('.card-face').toggle();
-
-
-    }
-    if (circle === 2 * allNum) {
-        // 点击到头，按钮显示进入法官页面
-        $('.btn').text(`法官查看`);
-    }
+    //获取当前操作下标
+    console.log($(this).index());
+    console.log($('.div1').index(this));
 });

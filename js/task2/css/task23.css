@@ -52,7 +52,8 @@ header {
   background-color: #fbb435;
   color: #fff;
   font-size: 1.6rem;
-  border-radius: 5px; }
+  border-radius: 5px;
+  cursor: pointer; }
 
 .role {
   color: #29bde0; }
