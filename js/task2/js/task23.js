@@ -31,7 +31,7 @@ $('.base').click(function () {
             $('.base').text(`查看${thisNum}号身份`);
         }
         else {
-            $('.base').text(`隐藏并传递给${thisNum}号`);
+            $('.base').text(`隐藏并传递给${thisNum + 1}号`);
         }
         $('.role').text(arr[circle / 2 - 1]);
         $('#hidden').toggle();

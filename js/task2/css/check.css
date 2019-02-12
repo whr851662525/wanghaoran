@@ -4,6 +4,7 @@ body {
 .max {
   min-width: 320px;
   max-width: 780px;
+  height: 100vh;
   margin: 0 auto;
   background: #29bde0; }
 

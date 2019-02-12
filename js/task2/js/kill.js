@@ -11,5 +11,7 @@ for (var n = 0;n < arr.length;n++) {
 </div>
 `);}
 $('.figure').click(function () {
-    $('.knife').toggle();
+    // $('.knife').toggle();
+    console.log(this);
+
 });
