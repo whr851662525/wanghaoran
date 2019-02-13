@@ -1,5 +1,8 @@
 let arr  = JSON.parse(sessionStorage.getItem("typer"));
 console.log(arr);
+$('.wrong').click(function () {
+    window.open('../html/task2.2.html', '_self');
+});
 for (var n = 0;n < arr.length;n++) {
     $('.lake').append(`
 <div class="box">
@@ -11,7 +14,18 @@ for (var n = 0;n < arr.length;n++) {
 </div>
 `);}
 $('.figure').click(function () {
-    // $('.knife').toggle();
-    console.log(this);
+    // $(this).find('.knife').toggle();
+    // console.log($(this).find('.knife').css('display'));
 
+    if($(this).find('.knife').css('display') == 'inline'){
+        $(this).find('.knife').toggle();
+    }else {
+        $('.knife').css('display','none');
+        $(this).find('.knife').toggle();
+    }
+    console.log(this);
+});
+$('.agree').click(function () {
+    //window.open('../html/judge.html', '_self');
+    //window.history.back(-1);
 });

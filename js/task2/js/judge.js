@@ -6,4 +6,5 @@ $('.over').click(function () {
 });
 $('.kill').click(function () {
     window.open('../html/kill.html', '_self');
+    $(this).css("background-color","#b9e9f5");
 });
