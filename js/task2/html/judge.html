@@ -7,6 +7,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/judge.css">
+
 </head>
 <body>
 <main>
@@ -21,14 +22,15 @@
 <div class="state">
     <div class="three"></div>
     <div class="speak">
-    <div>
-        <div class="triangle"></div><div class="kill">杀手杀人<img class="moon" src="../img/月亮.png" height="32" width="32"/></div>
+    <div class="one">
+        <div class="triangle kill-box"></div><div class="kill">杀手杀人<img class="moon" src="../img/月亮.png" height="32" width="32"/></div>
+        <div class="dead"><div class="number"></div>号被杀死了，他的真实身份是<div class="identity"></div></div>
     </div>
     <div>
-        <div class="triangle"></div><div class="kill">亡灵发表遗言<img class="moon" src="../img/太阳.png" height="32" width="32"/></div>
+        <div class="triangle ghost-box"></div><div class="ghost">亡灵发表遗言<img class="moon" src="../img/太阳.png" height="32" width="32"/></div>
     </div>
-    <div><div class="triangle"></div><div class="kill">玩家依次发言</div></div>
-    <div><div class="triangle"></div><div class="kill">全民投票</div></div>
+    <div><div class="triangle player-box"></div><div class="player">玩家依次发言</div></div>
+    <div><div class="triangle all-box"></div><div class="all">全民投票</div></div>
 </div></div></div>
 <div class="bottom">
     <button class="over">结束游戏</button>
@@ -36,6 +38,7 @@
 </div>
 </main>
 <script src="../jquery-3.3.1.min.js"></script>
+<script src="../package/lib/state-machine.js"></script>
 <script src="../js/judge.js"></script>
 </body>
 </html>

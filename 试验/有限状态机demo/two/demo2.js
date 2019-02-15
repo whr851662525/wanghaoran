@@ -1,4 +1,4 @@
-$(document).ready(function(){
+function tt(){
     var fsm =  StateMachine({
         init: "hi",
         transitions: [
@@ -48,4 +48,5 @@ $(document).ready(function(){
     $(".hh").click(function () {
         fsm.introduce();
     });
-});
+}
+tt();

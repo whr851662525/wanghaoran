@@ -14,18 +14,30 @@ for (var n = 0;n < arr.length;n++) {
 </div>
 `);}
 $('.figure').click(function () {
-    // $(this).find('.knife').toggle();
-    // console.log($(this).find('.knife').css('display'));
-
-    if($(this).find('.knife').css('display') == 'inline'){
-        $(this).find('.knife').toggle();
-    }else {
-        $('.knife').css('display','none');
-        $(this).find('.knife').toggle();
-    }
-    console.log(this);
+    $(".knife").hide();
+    $(this).children(".knife").show();
+    $(".figure").removeClass("chosen");
+    $(this).addClass("chosen");
 });
 $('.agree').click(function () {
-    //window.open('../html/judge.html', '_self');
-    //window.history.back(-1);
+    var q = $('.figure').index($('.chosen'));
+    console.log(q);
+    if (arr[q] == "杀手"){
+        alert("干啥这么想不开，不能自杀哦！");
+        return false;
+    }
+    window.open('../html/judge.html', '_self');
 });
+
+// $('.figure').click(function () {
+//     if($(this).find('.knife').css('display') == 'inline'){
+//         $(this).find('.knife').toggle();
+//         $(this).removeClass("chosen");
+//     }else {
+//         $('.knife').css('display','none');
+//         $(this).find('.knife').toggle();
+//         $(this).addClass("chosen");
+//     }
+//     console.log(this);
+// });
+//addClass
