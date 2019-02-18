@@ -1,6 +1,5 @@
 let arr  = JSON.parse(sessionStorage.getItem("typer"));
 console.log(arr);
-sessionStorage.setItem("arr",JSON.stringify(arr));
 for (var n = 0;n < arr.length;n++) {
     $('.lake').append(`
 <div class="box">

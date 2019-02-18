@@ -77,6 +77,12 @@ function start() {
     document.getElementById("populace").innerText = civilians;
     var a = new Array(killer).fill("杀手");
     var q = new Array(civilians).fill("平民");
+    // var one = {
+    //     name:"平民"
+    // };
+    // var two = {
+    //     name: "杀手"
+    // };
     console.log(a);
     console.log(q);
     var arr = a.concat(q);
@@ -94,7 +100,6 @@ function load(){
     if ( ghost()===false){
     } else {
         start();
-        console.log(start());
         sessionStorage.setItem("typer",JSON.stringify(start()));
         window.open( "../html/task23.html","_self");
     }

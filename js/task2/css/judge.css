@@ -167,7 +167,7 @@ header {
     cursor: pointer; }
 
 .dead {
-  display: none;
+  display: -webkit-box;
   margin-left: 70px; }
 
 /*# sourceMappingURL=judge.css.map */

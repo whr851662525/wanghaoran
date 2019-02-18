@@ -21,7 +21,7 @@ $('.base').click(function () {
     circle++;//点一次加一次
     console.log(`circle` + circle);
     if (circle === 2 * allNum + 1) { //再继续点则进入下一个页面
-        sessionStorage.setItem("arr",JSON.stringify(arr));
+        // sessionStorage.setItem("arr",JSON.stringify(arr));
         window.open('../html/check.html', '_self');
     }
     else if (circle <= 2 * allNum) { //查看过程中
