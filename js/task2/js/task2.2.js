@@ -45,16 +45,7 @@ function demo4() {
     }
     ghost()
 }
-// function checkStr() {
-//     var title = document.getElementById("title").value.trim();
-//     var desc = document.getElementById("desc").value.trim();
-//     if (title == null || title == "") {
-//         alert("请输入十个字以内的词汇");
-//         return false;
-//     }else{
-//
-//     }
-// }
+
 function  ghost() {
     var allNum = document.getElementById("demo1").value;
     let bar  = document.getElementById('demo2');
@@ -77,12 +68,6 @@ function start() {
     document.getElementById("populace").innerText = civilians;
     var a = new Array(killer).fill("杀手");
     var q = new Array(civilians).fill("平民");
-    // var one = {
-    //     name:"平民"
-    // };
-    // var two = {
-    //     name: "杀手"
-    // };
     console.log(a);
     console.log(q);
     var arr = a.concat(q);
@@ -104,3 +89,17 @@ function load(){
         window.open( "../html/task23.html","_self");
     }
 }
+
+
+
+
+// function checkStr() {
+//     var title = document.getElementById("title").value.trim();
+//     var desc = document.getElementById("desc").value.trim();
+//     if (title == null || title == "") {
+//         alert("请输入十个字以内的词汇");
+//         return false;
+//     }else{
+//
+//     }
+// }

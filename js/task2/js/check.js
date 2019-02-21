@@ -10,3 +10,6 @@ for (var n = 0;n < arr.length;n++) {
 </div>
 `);
 }
+$(".agree").click(function () {
+    window.location.href = ('../html/judge.html');
+});
