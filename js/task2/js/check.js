@@ -12,4 +12,11 @@ for (var n = 0;n < arr.length;n++) {
 }
 $(".agree").click(function () {
     window.location.href = ('../html/judge.html');
+    var peoples = [];
+    if (typeof(arr[0]) == "string") {
+        $.each(arr, function (index, data) {
+            peoples.push({name: data, state: 1, num:index+1});
+        });
+    }
+    sessionStorage.setItem("peoples", JSON.stringify(peoples));
 });

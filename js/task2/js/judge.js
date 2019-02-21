@@ -1,7 +1,6 @@
-let arr = JSON.parse(sessionStorage.getItem("typer"));
 let killed = JSON.parse(sessionStorage.getItem("killed"));
 let step = JSON.parse(sessionStorage.getItem("step"));
-console.log(arr);
+let judge = JSON.parse(sessionStorage.getItem("judge"));
 console.log(killed);
 console.log(step);
 $(function () {
@@ -69,5 +68,17 @@ $(".all").click(function () {
        window.location.href = ('../html/kill.html');
    }else {
        alert('请按顺序点击')
+   }
+});
+$(function () {
+   if (judge == 5){
+       $(".all").after(`<div class="dead">白天<div class="number">${killed.num}</div>号被投死了，他的真实身份是
+    <div class="identity">${killed.name}</div></div>`);
+       $(".kill").css("background-color", "#b9e9f5").off('click');
+       $(".kill-box").css("border-right", "25px solid #b9e9f5");
+       $(".player").css("background-color", "#b9e9f5").off('click');
+       $(".player-box").css("border-right", "25px solid #b9e9f5");
+       $(".all").css("background-color", "#b9e9f5").off('click');
+       $(".all-box").css("border-right", "25px solid #b9e9f5");
    }
 });
