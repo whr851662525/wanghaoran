@@ -1,17 +1,24 @@
 let killed = JSON.parse(sessionStorage.getItem("killed"));
 let step = JSON.parse(sessionStorage.getItem("step"));
-let judge = JSON.parse(sessionStorage.getItem("judge"));
 console.log(killed);
 console.log(step);
 $(function () {
     if (step === 2){
         $(".kill").css("background-color", "#b9e9f5").off('click');
         $(".kill-box").css("border-right", "25px solid #b9e9f5");
-        $(".kill").after(`<div class="dead">晚上<div class="number">${killed.num}</div>号被杀死了，他的真实身份是
-    <div class="identity">${killed.name}</div></div>`);}
+        $(".kill").after(`<div class="dead">晚上<div class="number">${killed[0].num}</div>号被杀死了，他的真实身份是
+    <div class="identity">${killed[0].name}</div></div>`);}
+    else {
+        return false;
+    }
+    // else {
+    //     $(".kill").after(`<div class="dead">晚上<div class="number">${killed[0].num}</div>号被杀死了，他的真实身份是
+    // <div class="identity">${killed[0].name}</div></div>`);
+    // }
 });
 let days = [killed];
 console.log(days);
+sessionStorage.setItem("days", JSON.stringify(days));
 for (var i=0;i<days.length;i++){
 $('.days').append(`
 <div class="one-day">
@@ -71,14 +78,20 @@ $(".all").click(function () {
    }
 });
 $(function () {
-   if (judge == 5){
-       $(".all").after(`<div class="dead">白天<div class="number">${killed.num}</div>号被投死了，他的真实身份是
-    <div class="identity">${killed.name}</div></div>`);
+   if (step === 5){
+       $(".all").after(`<div class="dead">白天<div class="number">${killed[1].num}</div>号被投死了，他的真实身份是
+    <div class="identity">${killed[1].name}</div></div>`);
        $(".kill").css("background-color", "#b9e9f5").off('click');
        $(".kill-box").css("border-right", "25px solid #b9e9f5");
+       $(".ghost").css("background-color", "#b9e9f5").off('click');
+       $(".ghost-box").css("border-right", "25px solid #b9e9f5");
        $(".player").css("background-color", "#b9e9f5").off('click');
        $(".player-box").css("border-right", "25px solid #b9e9f5");
        $(".all").css("background-color", "#b9e9f5").off('click');
        $(".all-box").css("border-right", "25px solid #b9e9f5");
+       $(".kill").after(`<div class="dead">晚上<div class="number">${killed[0].num}</div>号被杀死了，他的真实身份是
+    <div class="identity">${killed[0].name}</div></div>`);
+   }else {
+       return false;
    }
 });

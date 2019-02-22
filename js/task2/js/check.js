@@ -18,5 +18,7 @@ $(".agree").click(function () {
             peoples.push({name: data, state: 1, num:index+1});
         });
     }
+    var  killed = [];
     sessionStorage.setItem("peoples", JSON.stringify(peoples));
+    sessionStorage.setItem("killed", JSON.stringify(killed));
 });

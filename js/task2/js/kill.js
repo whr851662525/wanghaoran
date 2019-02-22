@@ -1,6 +1,7 @@
 let killed = JSON.parse(sessionStorage.getItem("killed"));
 let step = JSON.parse(sessionStorage.getItem("step"));
 let peoples = JSON.parse(sessionStorage.getItem("peoples"));
+let days = JSON.parse(sessionStorage.getItem("days"));
 console.log(step)
 $('.wrong').click(function () {
     window.open('../html/task2.2.html', '_self');
@@ -27,11 +28,15 @@ $(function () {
     if (step === 4) {
         $('.cast').text('全民投票');
         $('.please-box').text('请各位玩家找出杀人凶手！');
-        var judge = 5;
-        sessionStorage.setItem("judge", JSON.stringify(judge));
+        $('.agree').text('投死');
+        step = 5;
+        sessionStorage.setItem("step", JSON.stringify(step));
+        // var judge = 5;
+        // sessionStorage.setItem("judge", JSON.stringify(judge));
     }
 });
 $('.figure').click(function () {
+
     if ($(this).find('.block').hasClass("dead")) {
         alert("这个人已经死了，选其他人吧！");
         return;
@@ -41,9 +46,14 @@ $('.figure').click(function () {
     $(".figure").removeClass("chosen");
     $(this).addClass("chosen");
 });
+
+
+
 $('.agree').click(function () {
+
     var q = $('.figure').index($('.chosen'));
-    console.log(q)
+    if (step == undefined) {
+    console.log(q);
     if (peoples[q].name === "杀手") {
         alert("干啥这么想不开，不能自杀哦！");
         return false;
@@ -54,16 +64,34 @@ $('.agree').click(function () {
         alert("请选择要杀的人");
         return false;
     }
-    arr = peoples;
-    arr[q].state = 2;
-    arr = arr[q];
-    console.log(arr);
+    peoples[q].state = 2;
+    killed.push(peoples[q]);
+    //     arr.push({name: arr[q], state: 2, num:q+1});
     console.log(peoples);
     sessionStorage.setItem("peoples", JSON.stringify(peoples));
-    sessionStorage.setItem("killed", JSON.stringify(arr));
+    sessionStorage.setItem("killed", JSON.stringify(killed));
 // sessionStorage.setItem("typer", JSON.stringify(arr));
     var order = 2;
     sessionStorage.setItem("step", JSON.stringify(order));
+    }else {
+        if (q == -1){
+            alert("请选择要杀的人");
+            return false;
+        }
+
+        peoples[q].state = 2;
+        console.log(killed)
+        killed.push(peoples[q]);
+        // arr[q].state2 = 2;
+        // arr[q].name = arr[q];
+        // arr[q].num = q;
+        //arr = arr[q];
+        console.log(peoples);
+        sessionStorage.setItem("peoples", JSON.stringify(peoples));
+        sessionStorage.setItem("killed", JSON.stringify(killed));
+        console.log(killed);
+        window.location.href = ('../html/judge.html');
+    }
 });
 
 // $('.figure').click(function () {
