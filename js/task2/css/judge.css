@@ -4,7 +4,6 @@ body {
 main {
   min-width: 320px;
   max-width: 780px;
-  height: 100vh;
   margin: 0 auto;
   background-color: #f0f0f0; }
 
@@ -16,9 +15,7 @@ header {
   background: #29bde0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0; }
+  align-items: center; }
   header .left {
     margin-left: 10px; }
   header .right {
@@ -27,9 +24,6 @@ header {
     color: #fafafa;
     font-size: 1.7rem; }
 
-.empty {
-  height: 55px; }
-
 .day {
   margin: 15px 15px 15px 15px;
   padding: 10px 0 10px 0;
@@ -37,7 +31,8 @@ header {
   background-color: #fafafa;
   border: 1px solid #c9c9c9;
   color: #29bde0;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  cursor: pointer; }
 
 .state {
   margin: 0 15px 0 15px;

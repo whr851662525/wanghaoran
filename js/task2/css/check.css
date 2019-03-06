@@ -118,14 +118,12 @@ a {
   text-decoration: none; }
 
 .agree {
-  width: 40vw;
-  height: 65%;
+  padding: 10px 80px 10px 80px;
   background: #fbb435;
   text-align: center;
   line-height: 48px;
   color: #fff;
   font-size: 1.5rem;
-  margin-top: 2%;
   cursor: pointer; }
 
 /*# sourceMappingURL=check.css.map */

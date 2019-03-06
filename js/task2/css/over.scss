@@ -42,44 +42,33 @@ header{
   text-align: center;
 }
 .dinting{
-  margin-top: 5vw;
-  margin-bottom: 3vw;
+  margin-top: 50px;
 }
 .lie{
-  margin:0 10% 6vw 10%;
+  margin:0 10% 20px 10%;
   font-size: 1.5rem;
   color: #ffc865;
   text-align: justify;
 }
-.time{
-  text-align: left;
-  margin-left: 10%;
-  color: $two;
-}
 .identity{
+  padding: 20px 0 20px 0;
   text-align: left;
   margin-left: 10%;
   color: $two;
-  .box{
-    height: 20px;
-  }
+  font-size: 1.5rem;
 }
 .sky{
   height: 30px;
+  margin-top: 10px;
   margin-left: 10%;
-  display: flex;
-  justify-content: space-between;
   .fate{
     font-size: 1.2rem;
-  }
-  .minute{
-    color: #c7c7c7;
-    margin-right: 8vw;
   }
 }
 .daytime{
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 10px;
   color: $three;
 }
 .night{
@@ -105,13 +94,10 @@ header{
   align-items: center;
   position: fixed;
   bottom: 0;
-  a{
-    text-decoration: none;
-    color: #fff;
-  }
   .recur{
     width: 40%;
     height: 60px;
+    color: #fff;
     background: #f66f6f;
     font-size: 1.5rem;
     text-align: center;
@@ -129,10 +115,15 @@ header{
     color: #fff;
   }
 }
+.victory-one{
+  position: relative;
+}
+.victory-box{
+  position: absolute;
+  left: calc(50% - 64px);
+  bottom: 25px;
+}
 .victory-two{
   color: #fff;
   font-size: 2rem;
-  position: absolute;
-  top: 226px;
-  left: 285px;
 }

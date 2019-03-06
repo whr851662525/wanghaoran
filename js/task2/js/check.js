@@ -12,13 +12,16 @@ for (var n = 0;n < arr.length;n++) {
 }
 $(".agree").click(function () {
     window.location.href = ('../html/judge.html');
+    //数组变对象
     var peoples = [];
     if (typeof(arr[0]) == "string") {
         $.each(arr, function (index, data) {
             peoples.push({name: data, state: 1, num:index+1});
         });
     }
+    //死人对象
     var  killed = [];
+    killed.push([]);
     sessionStorage.setItem("peoples", JSON.stringify(peoples));
     sessionStorage.setItem("killed", JSON.stringify(killed));
 });

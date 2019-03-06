@@ -7,12 +7,20 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="003.css">
+
+
 </head>
 <body>
-<header>
-    <div class="arrows"></div>
-    <div class="parameter">参数设置</div>
-    <div class="ask"></div>
-</header>
+<form id="form1" runat="server">
+    　　　　<div id="divOne" onclick="alert('我是最外层');">
+    　　　　　　<div id="divTwo" onclick="alert('我是中间层！')">
+    　　　　　　　　<a id="hr_three" href="http://www.baidu.com" mce_href="http://www.baidu.com"onclick="alert('我是最里层！')">点击我</a>
+    　　　　　　</div>
+    　　　　</div>
+    　　</form>
+
+
+<script src="../../js/task2/jquery-3.3.1.min.js"></script>
+<script src="003.js"></script>
 </body>
 </html>

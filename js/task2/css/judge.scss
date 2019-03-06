@@ -4,7 +4,6 @@ body{
 main{
   min-width: 320px;
   max-width: 780px;
-  height: 100vh;
   margin: 0 auto;
   background-color: #f0f0f0;
 }
@@ -17,8 +16,6 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
-  top: 0;
   .left{
      margin-left: 10px;
   }
@@ -31,7 +28,7 @@ header{
   }
 }
 .empty{
-  height: 55px;
+  //height: 55px;
 }
 .day{
   margin: 15px 15px 15px 15px;
@@ -41,6 +38,7 @@ header{
   border: 1px solid #c9c9c9;
   color: #29bde0;
   font-size: 1.2rem;
+  cursor:pointer;
 }
 .state{
   margin: 0 15px 0 15px;
