@@ -6,6 +6,7 @@ console.log(step);
 console.log(days);
 $('.wrong').click(function () {
     window.open('../html/task2.2.html', '_self');
+    sessionStorage.clear();
 });
 console.log(peoples);
 //生成盒子
@@ -67,7 +68,7 @@ console.log(days)
         sessionStorage.setItem("killed", JSON.stringify(killed));
         var order = 2;
         sessionStorage.setItem("step", JSON.stringify(order));
-        // window.location.href = ('../html/judge.html');
+        //window.location.href = ('../html/judge.html');
         filtrate();
     }
     else if (q == -1) {
@@ -102,7 +103,7 @@ console.log(days)
         sessionStorage.removeItem("step");
         //第二天清除step并且
         console.log(killed);
-        // window.location.href = ('../html/judge.html');
+        //window.location.href = ('../html/judge.html');
         filtrate();
     }
 });
@@ -122,29 +123,36 @@ function filtrate() {
     // count();
     var killer = count(peoples,"name","杀手");
     console.log(killer);
-    var civilian = count(peoples,name,"平民");
+    var civilian = count(peoples,"name","平民");
     console.log(civilian);
     var dead=0;
     var deadKiller=0;
     var deadCivilians=0;
     for (var a=0;a<peoples.length;a++) {
-        if (peoples[a].state == 2) {
+        if (peoples[a].state == 1) {
             dead++;
             if (peoples[a].name == "杀手") {
                 deadKiller++;
+                console.log(deadKiller);
             }else if (peoples[a].name == "平民") {
                 deadCivilians++;
+                console.log(deadCivilians);
             }
         }
         console.log(dead);
-
+        sessionStorage.setItem("deadKiller", JSON.stringify(deadKiller));
+        sessionStorage.setItem("deadCivilians", JSON.stringify(deadCivilians));
     }
     switch (true) {
-        case killer-deadKiller === civilian-deadCivilians:
+        case deadKiller > deadCivilians:
             alert("杀手胜利");
             window.location.href = "over.html";
             break;
-        case killer-deadKiller === 0:
+        case deadKiller === deadCivilians:
+            alert("杀手胜利");
+            window.location.href = "over.html";
+            break;
+        case  deadKiller===0:
             alert("平民胜利");
             window.location.href = "over.html";
             break;

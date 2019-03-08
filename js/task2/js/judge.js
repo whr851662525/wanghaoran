@@ -52,6 +52,7 @@ $(".kill").click(function () {
 });
 $('.over').click(function () {
     window.open('../html/task2.html', '_self');
+    sessionStorage.clear();
 });
 $(".ghost").bind('click',function () {
 if (step ===  2){
