@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.star{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    background: green;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    margin: 1rem 0;
+}
+button {
+    margin-left: 10px;
+    color: #1eaccd;
+    background: #042229;
+}

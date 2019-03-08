@@ -26,6 +26,7 @@ $(function () {
    `);
     }
 });
+
 //显示活着的玩家
 $(function () {
     $("#one").text(deadKiller);
