@@ -7,7 +7,7 @@ body{
 .max{
   min-width: 320px;
   max-width: 780px;
-  height: 100vh;
+  height: 108vh;
   margin: 0 auto;
   background: #29bde0;
 }
@@ -42,8 +42,6 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  overflow: hidden;
-  position: relative;
 }
 .please{
   margin-left: 50px;
@@ -52,7 +50,7 @@ header{
   margin-right: 15px;
 }
 audio{
-  opacity: 0;
+  display: none;
   width: 78px;
   position: absolute;
   right: -10px;

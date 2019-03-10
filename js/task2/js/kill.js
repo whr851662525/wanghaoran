@@ -56,11 +56,12 @@ $('.agree').click(function () {
 console.log(days)
     var q = $('.figure').index($('.chosen'));
     if (step == undefined) {
-    console.log(q);
+        if (peoples[q] !=undefined) {
     if (peoples[q].name === "杀手") {
         alert("干啥这么想不开，不能自杀哦！");
         return false;
     } else if (peoples[q].name === "平民") {
+        console.log(q);
         killed[killed.length-1].push(peoples[q]);
         peoples[q].state = 2;
         console.log(days.length);
@@ -68,16 +69,18 @@ console.log(days)
         sessionStorage.setItem("killed", JSON.stringify(killed));
         var order = 2;
         sessionStorage.setItem("step", JSON.stringify(order));
-        //window.location.href = ('../html/judge.html');
+        window.location.href = ('../html/judge.html');
         filtrate();
-    }
-    else if (q == -1) {
+
+    }}
+    else {
+        console.log(123);
         alert("请选择要杀的人");
         return false;
     }
     }else {
-        console.log(killed)
-        if (q == -1){
+        console.log(killed);
+        if (q === -1){
             alert("请选择要投死的人");
             return false;
         }
@@ -103,7 +106,7 @@ console.log(days)
         sessionStorage.removeItem("step");
         //第二天清除step并且
         console.log(killed);
-        //window.location.href = ('../html/judge.html');
+        window.location.href = ('../html/judge.html');
         filtrate();
     }
 });

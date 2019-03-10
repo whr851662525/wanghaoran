@@ -13,12 +13,14 @@ function number(){
         }
     }
 }
+var demo1 = document.getElementById("demo1");
+demo1.value=4;
 function demo3() {
     var demo3 = document.getElementById("demo3");
     var demo1 = document.getElementById("demo1");
-    if (demo1.value<=4) {
+    if (demo1.value<4) {
         //如果文本框的值小于1,则设置值为1
-        demo3.value = 4;
+        //demo3.value = 4;
     }
     else {
         demo1.value = demo1.value - 1;
@@ -41,7 +43,7 @@ function demo4() {
     demo2.value = parseInt(demo2.value)+1;
     if (demo1.value>=18) {
         //如果文本框的值小于1,则设置值为1
-        demo4.value = 18;
+        //demo4.value = 18;
     }
     ghost()
 }

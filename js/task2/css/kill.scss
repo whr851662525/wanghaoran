@@ -7,7 +7,7 @@ body{
 .max{
   min-width: 320px;
   max-width: 780px;
-  height: 100vh;
+  height: 108vh;
   margin: 0 auto;
   background: #29bde0;
 }
@@ -38,8 +38,6 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  overflow: hidden;
-  position: relative;
 }
 .please-box{
   margin-left: 65px;
@@ -70,8 +68,7 @@ header{
 }
 .box{
   flex: 0 0 33.3333%;
-  margin-bottom: 30px;
-  margin-top: 20px;
+  margin-bottom: 45px;
 }
 .figure {
   width: 80px;
