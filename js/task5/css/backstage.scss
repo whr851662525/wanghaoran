@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+}
+header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+
+  .manage {
+    font-weight: bolder;
+  }
+  .systems {
+    display: flex;
+    align-items: center;
+  }
+  .register {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  .quit {
+    padding: 5px 20px 5px 20px;
+    background-color: cornflowerblue;
+    color: #fff;
+    border-radius: 5px;
+  }
+}
+.content{
+  display: flex;
+  margin-top: 10px;
+  .content-one{
+    margin: 12px;
+    color: cornflowerblue;
+
+    .personal{
+      padding: 10px;
+      border: 1px solid #A9A9A9;
+    }
+    .student {
+      padding: 10px;
+      border: 1px solid #A9A9A9;
+    }
+    .newly{
+      padding: 10px;
+      border: 1px solid #A9A9A9;
+    }
+  }
+  .content-two{
+    border: 1px solid cornflowerblue;
+  }
+}
