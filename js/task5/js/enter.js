@@ -38,11 +38,11 @@ $('#button').click(function () {
 // function whr() {
 //     document.getElementById('invalid').innerText;
 //     var name=document.getElementById('name').value;
-//     var pwd=document.getElementById('pwd').value;
+//     var pwd=document.getElementById('pswd').value;
 //     console.log(name);
 //     console.log(pwd);
 //     var xhr=new XMLHttpRequest();
-//     if ((login === null || login ==='')||(pwd === null || pwd === '')){
+//     if ((name === null || name ==='')||(pwd === null || pwd === '')){
 //         document.getElementById('invalid').innerText='请输入用户名或密码';
 //     }else {
 //         xhr.onreadystatechange=function (){
@@ -64,5 +64,5 @@ $('#button').click(function () {
 //     xhr.open('POST','/carrots-admin-ajax/a/login',true);
 //     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 //     xhr.setRequestHeader("Accept", "application/json,text/plain,*/*");
-//     xhr.send('name='+login+'&'+'&pwd='+pwd);
+//     xhr.send('name='+name+'&'+'&pwd='+pwd);
 // }

@@ -1,0 +1,94 @@
+//@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+aside {
+  width: 300px;
+  height: 100vh;
+  background: #2c3e50;
+  font-family: "Open Sans", sans serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.title span {
+  display: block;
+  text-transform: none;
+  font-size: .70em;
+}
+
+.contenedor-acordeon {
+  width: 280px;
+  overflow: hidden;
+  border-radius: 3px;
+  padding-top: 30px;
+}
+
+.acordeon {
+  width: 100%;
+  overflow: hidden;
+  padding-right: 25px;
+}
+.acordeon__head {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .90em;
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.3);
+}
+.acordeon__head:hover {
+  cursor: pointer;
+}
+.acordeon__head--logo, .acordeon__head--title, .acordeon__head .icon {
+  pointer-events: none;
+}
+.acordeon__head--logo {
+  width: 8%;
+}
+.acordeon__head--title {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: .95em;
+  font-weight: 600;
+}
+.acordeon__head .icon {
+  font-size: .80em;
+}
+.acordeon__aside {
+  height: 0;
+  transition: height .4s ease-in-out;
+}
+.acordeon__aside__menu {
+  list-style: none;
+  text-align: center;
+}
+.acordeon__aside__menu li {
+  border-bottom: 0.2px solid rgba(0, 0, 0, 0.3);
+  padding: .90em;
+}
+.acordeon__aside__menu li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em 1em 1em 1em;
+  font-size: .95em;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+.active {
+  height: 56px;
+}
